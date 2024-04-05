@@ -7,8 +7,7 @@ import Scroller from '../../componants/Scroller'
 
 
 function Home() {
-    // console.log(projects[0])
-    // const projectTitle = projects[0].title
+    
     return(
         <main>
             <div className="main-container">
