@@ -50,11 +50,12 @@
         animation-duration: 350ms;
         animation-delay: 3600ms;
         animation-fill-mode: backwards;
-        transition: box-shadow 400ms cubic-bezier(.18,.97,.53,1);
+        transition: box-shadow 900ms cubic-bezier(.18,.97,.53,1), font-weight 500ms cubic-bezier(.18,.97,.53,1);
         &:hover {
             background: linear-gradient(133deg, rgba(222,222,255,1) 35%, rgba(148,241,246,1) 100%);
-            box-shadow: 2px 3px 25px 3px rgba(66, 68, 90, 0.20);
+            box-shadow: 2px 3px 35px 3px rgba(66, 68, 90, 0.25);
             cursor: pointer;
+            font-weight: 600;
         }
     }
 }
@@ -66,22 +67,25 @@ h2 {
     line-height: 60px;
     font-weight: 600;
     margin: 0 0 20px 0;
+} 
+.works-title  {
+    padding-top: 100px;
 }
 .glass-overlay{
     background-color: rgb(235, 240, 240 , 50%);
     border-radius: 80px;
-    padding: 50px 100px;
+    padding: 50px 70px;
     box-shadow: 6px 3px 48px -15px rgba(66, 75, 90, 0.3);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     overflow: scroll;
-
+    height: 85vh;
     .card-wrapper {
         display: flex;
+        flex-direction: column;
         gap: 50px;
         align-items: center;
         margin: 0 40px;
-
     }
 }
 .about-container {

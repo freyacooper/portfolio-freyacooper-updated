@@ -19,7 +19,9 @@ function Home() {
                 
             </div>
             <div className="glass-overlay" id='works'>
-                <h2>Here's a selection of my previous work</h2>
+                <div className='works-title'>
+                    <h2>Here's a selection of my previous work</h2>
+                </div>
                 <div className="card-wrapper">
                     {projects.map(({ title, id, tagline, cover, color, url}) => (
                         <ProjectCard title={title} key={id} tagline={tagline} cover={cover} color={color} url={url}/>
