@@ -23,8 +23,8 @@ function Home() {
                     <h2>Here's a selection of my previous work</h2>
                 </div>
                 <div className="card-wrapper">
-                    {projects.map(({ title, id, tagline, cover, color, url}) => (
-                        <ProjectCard title={title} key={id} tagline={tagline} cover={cover} color={color} url={url}/>
+                    {projects.map(({ title, id, tagline, cover, color, site, github}) => (
+                        <ProjectCard title={title} key={id} tagline={tagline} cover={cover} color={color} site={site} github={github}/>
                     ))} 
                     
                 </div>

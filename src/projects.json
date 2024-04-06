@@ -8,7 +8,8 @@
             "color": "#f5b5b5",
             "darkercolor": "#BF3737",
             "bg": "/assets/Project covers/JCSbg.png",
-            "url": "jennings-chimney-sweeping"
+            "url": "jennings-chimney-sweeping",
+            "site": "https://www.jenningschimneysweeping.com/"
         },
         {
             "id": 2,
@@ -23,7 +24,9 @@
                 "../../assets/ohmyfood/homepage-OMF.png",
                 "../../assets/ohmyfood/rest1-OMF.png",
                 "../../assets/ohmyfood/rest2-OMF.png"
-            ]
+            ],
+            "site": "https://freyacooper.github.io/Oh_My_Food/",
+            "github": "https://github.com/freyacooper/Oh_My_Food"
         },
         {
             "id": 3,
@@ -32,24 +35,26 @@
             "description": "Description of project",
             "tagline": "short sentence",
             "color": "#d9baa9",
-            "url": "sophie-bluel-porfolio"
+            "url": "sophie-bluel-porfolio",
+            "github": "https://github.com/freyacooper/Portfolio_Sophie_Bluel"
         },
         {
             "id": 4,
+            "title": "Kasa",
+            "cover": "/assets/Project covers/KasaHome.png",
+            "description": "Description of project",
+            "tagline": "short sentence",
+            "color": "#f7c2b5",
+            "url": "kasa",
+            "github": "https://github.com/freyacooper/kasa"
+        },
+        {
+            "id": 5,
             "title": "Bivo",
             "cover": "/assets/Project covers/BivoHome.png",
             "description": "Description of project",
             "tagline": "short sentence",
             "color": "#afdece",
             "url": "bivo"
-        },
-        {
-            "id": 5,
-            "title": "Kasa",
-            "cover": "/assets/Project covers/KasaHome.png",
-            "description": "Description of project",
-            "tagline": "short sentence",
-            "color": "#f7c2b5",
-            "url": "kasa"
         }
     ]
