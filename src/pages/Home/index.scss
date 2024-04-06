@@ -68,8 +68,13 @@ h2 {
     font-weight: 600;
     margin: 0 0 20px 0;
 } 
+#works {
+    scroll-behavior: smooth;
+}
 .works-title  {
     padding-top: 100px;
+    position: sticky;
+    top: 10px;
 }
 .glass-overlay{
     background-color: rgb(235, 240, 240 , 50%);
@@ -78,8 +83,8 @@ h2 {
     box-shadow: 6px 3px 48px -15px rgba(66, 75, 90, 0.3);
     display: flex;
     align-items: flex-start;
-    overflow: scroll;
-    height: 85vh;
+    
+    
     .card-wrapper {
         display: flex;
         flex-direction: column;
@@ -87,6 +92,9 @@ h2 {
         align-items: center;
         margin: 0 40px;
     }
+}
+#about {
+    scroll-behavior: smooth;
 }
 .about-container {
     padding: 150px 15%;
