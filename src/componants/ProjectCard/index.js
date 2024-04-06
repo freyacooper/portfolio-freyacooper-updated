@@ -11,6 +11,7 @@ function ProjectCard({ title, tagline, cover, color, site, github }) {
                 <button className='disabled' disabled>Coming soon !</button>
                ) : (
                 <div className='button-container'>
+                    { github && (
                     <a href={github} target='blank'>
                         <button>
                             Repo Github
@@ -22,6 +23,8 @@ function ProjectCard({ title, tagline, cover, color, site, github }) {
                             </svg>
                         </button>
                     </a>
+                    )}
+                    { site && (
                     <a href={site} target='blank'>
                         <button>
                             Visit website
@@ -33,9 +36,8 @@ function ProjectCard({ title, tagline, cover, color, site, github }) {
                             </svg>
                         </button>
                     </a>
-                    
+                    )}
                 </div>
-                
                )}
             </div>
         </div>
