@@ -1,12 +1,20 @@
 import './index.scss'
 
-function ProjectCard({ title, tagline, cover, color, site, github }) {
+function ProjectCard({ title, tagline, cover, color, site, github, icons }) {
+    console.log(icons)
     return(
         <div className="card" style={{backgroundColor: color}}>
             <img alt="A screenshot of the website" src={cover}/>
             <div className="project-details">
                <h3>{title}</h3>
-               <p>{tagline}</p>
+               <div className='description-container'>
+                <p>{tagline}</p>
+               </div>
+               <div className='icon-container'>
+                { icons.map((iconSource) => (
+                    <img alt='' src={iconSource}/>
+                ))}
+               </div>
                { title === "Bivo" ? (
                 <button className='disabled' disabled>Coming soon !</button>
                ) : (

@@ -3,9 +3,6 @@ import fb from '../../Photos/fb.png'
 import insta from '../../Photos/insta.png'
 import linkedin from '../../Photos/linkedin.png'
 import mail from '../../Photos/mail.png'
-// import fbColor from '../../Photos/fb-color.png'
-// import instaColor from '../../Photos/insta-color.png'
-// import linkedinColor from '../../Photos/linkedin-color.png'
 
 function Footer() {
     // const location = useLocation();
@@ -33,8 +30,11 @@ function Footer() {
                         <img src={mail} alt="vecteur d'un homme envoyant une lettre à bord d'un avion en papier"/>
                     </div>
                     <div>
-                        <h2>Let's work together</h2>
-                        <p>Just a small paragraph to say something more about why they should contact me very friendly.</p>
+                        <h2>Travaillons ensemble</h2>
+                        <p>Je suis fier de mon professionnalisme et de mon attitude positive et je suis convaincu que je peux être un atout pour votre projet.</p>
+                        <p>Les compétences que je possède peuvent être utilisées dans un grand nombre d'environnements. Si vous n'êtes pas sûr que je puisse vous aider, n'hésitez pas à m'envoyer un courriel. J'adore discuter des idées passionnantes que les gens proposent et je peux vous aider ou vous orienter dans la bonne direction si nécessaire. </p>
+                        <p>J'espère avoir bientôt de vos nouvelles !</p>
+                        <p className='name'>Freya</p>
                         <a href='mailto:email@gmail.com'>
                             <button>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

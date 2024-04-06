@@ -97,11 +97,11 @@ h2 {
     scroll-behavior: smooth;
 }
 .about-container {
-    padding: 150px 15%;
+    padding: 150px 10%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     .img-box{
         background-color: grey;
         display: flex;
@@ -109,9 +109,11 @@ h2 {
         width: 1400px;
         border-radius: 20px;
     }
+    h2 {
+        margin-bottom: 40px;
+    }
     p {
         font-size: 20px;
-        margin-top: 40px;
         line-height: 30px;
     }
 }

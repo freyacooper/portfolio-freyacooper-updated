@@ -3,20 +3,26 @@
             "id": 1,
             "title": "Jennings Chimney Sweeping",
             "cover": "/assets/Project covers/JCSHomeCover.png",
-            "tagline": "short sentence",
+            "tagline": "J'ai été chargé de la refonte du site web d'une entreprise locale de ramonage, mon premier projet dans le monde du développement web pendant ma transition entre le graphisme et le développement front-end. Ce projet met en avant mes compétences en design graphique, puisqu'il a été construit en utilisant Wordpress et Elementor, mais il est un excellent exemple de mes compétences en UX/UI.",
             "description": ["Description of project"],
             "color": "#f5b5b5",
             "darkercolor": "#BF3737",
             "bg": "/assets/Project covers/JCSbg.png",
             "url": "jennings-chimney-sweeping",
-            "site": "https://www.jenningschimneysweeping.com/"
+            "site": "https://www.jenningschimneysweeping.com/",
+            "icons": [
+                "../../assets/icons/wordpress.png",
+                "../../assets/icons/elementor.png",
+                "../../assets/icons/illustrator.png",
+                "../../assets/icons/xd.png"
+            ]
         },
         {
             "id": 2,
             "title": "Oh My Food",
             "cover": "/assets/Project covers/OMFHomeCover.png",
             "description": ["Pour le projet Oh My Food, j'ai eu le privilège de collaborer avec une jeune startup ambitieuse dans le domaine de la restauration. Leur objectif était clair : conquérir le marché parisien en offrant une expérience culinaire innovante.", "Mon rôle consistait à développer un prototype d'un site web 'mobile first' qui permettrait aux clients de composer leur propre menu et de réserver leur repas dans des restaurants gastronomiques sélectionnés. En travaillant avec les maquettes fournis par le graphiste, j'ai pu créer une première version du site interactive, en assurant une expérience utilisateur fluide et intuitive sur toutes les plateformes, que ce soit sur desktop, mobile ou tablette. De plus, j'ai intégré avec précision les animations CSS spécifiées dans les maquettes, ajoutant une touche de dynamisme à l'ensemble du site.", "Ce projet a été une formidable opportunité de mettre en pratique mes compétences en développement web tout en contribuant à la croissance d'une entreprise prometteuse."],
-            "tagline": "Site web mobile-first, menus personnalisés, animations CSS",
+            "tagline": "Pendant ma formation en développement front-end, j'ai été chargé de construire un site à partir d'une maquette prédéfinie, qui permettrait aux clients de composer leur propre menu et de réserver leur repas dans des restaurants gastronomiques. Ce projet visait à évaluer notre compréhension du CSS avec l'introduction du Sass et un accent particulier sur les animations. Ce défi a exigé une approche mobile-first en utilisant uniquement HTML et Sass pour atteindre le résultat attendu.",
             "color": "#EAD5EF",
             "darkercolor": "#9853A9",
             "url": "oh-my-food",
@@ -26,7 +32,11 @@
                 "../../assets/ohmyfood/rest2-OMF.png"
             ],
             "site": "https://freyacooper.github.io/Oh_My_Food/",
-            "github": "https://github.com/freyacooper/Oh_My_Food"
+            "github": "https://github.com/freyacooper/Oh_My_Food",
+            "icons": [
+                "../../assets/icons/html.png",
+                "../../assets/icons/sass.png"
+            ]
         },
         {
             "id": 3,
@@ -36,7 +46,12 @@
             "tagline": "short sentence",
             "color": "#d9baa9",
             "url": "sophie-bluel-porfolio",
-            "github": "https://github.com/freyacooper/Portfolio_Sophie_Bluel"
+            "github": "https://github.com/freyacooper/Portfolio_Sophie_Bluel",
+            "icons": [
+                "../../assets/icons/html.png",
+                "../../assets/icons/css.png",
+                "../../assets/icons/js.png"
+            ]
         },
         {
             "id": 4,
@@ -46,7 +61,11 @@
             "tagline": "short sentence",
             "color": "#f7c2b5",
             "url": "kasa",
-            "github": "https://github.com/freyacooper/kasa"
+            "github": "https://github.com/freyacooper/kasa",
+            "icons": [
+                "../../assets/icons/reacticon.png",
+                "../../assets/icons/sass.png"
+            ]
         },
         {
             "id": 5,
@@ -55,6 +74,11 @@
             "description": "Description of project",
             "tagline": "short sentence",
             "color": "#afdece",
-            "url": "bivo"
+            "url": "bivo",
+            "icons": [
+                "../../assets/icons/figmaicon.png",
+                "../../assets/icons/xd.png",
+                "../../assets/icons/illustrator.png"
+            ]
         }
     ]
