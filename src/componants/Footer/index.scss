@@ -2,7 +2,7 @@
 
 .cta {
         display: flex;
-        padding: 160px;
+        padding: 140px;
         gap: 60px;
         align-items: center;
         p {
@@ -50,8 +50,39 @@
                 height: 450px;
             }
         }
-        @media screen and (max-width: 1000px) {
-
+        @media screen and (max-width: 1120px) {
+            padding: 80px 20px 60px 20px;
+            .image {
+                img {
+                height: 300px;
+                }
+            }
+            
+        }
+        @media screen and (max-width: 730px) {
+            .image {
+                img {
+                    height: 200px;
+                }
+            }
+        }
+        @media screen and (max-width: 700px) {
+            p{
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .image {
+                img {
+                    height: 200px;
+                }
+            }
+        }
+        @media screen and (max-width: 630px) {
+            .image {
+                img {
+                    display: none;
+                }
+            }
         }
     }
 
@@ -60,17 +91,18 @@
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-between;
     
+    justify-content: space-between;
     &-nav {
         padding: 10px;
         display: flex;
         text-transform: uppercase;
-        gap: 40%;
+        gap: 80px;
         font-size: 18px;
         align-items: center;
         justify-content: center;
         text-wrap: nowrap;
+        width: 100%;
         a{
             transition: color 400ms ease, font-weight 500ms ease;
             color: white;
@@ -84,7 +116,7 @@
     }
     svg {
         color: white;
-        margin: 50px 0 50px 100px;
+        margin: 50px 0 50px 80px;
         height: 70px;
         transition: opacity 400ms ease;
         &:hover {
@@ -93,7 +125,7 @@
         }   
     } 
     .socials {
-        display: flex;
+        display: none;
         flex-direction: row;
         align-items: center;
         gap: 30px;
@@ -127,6 +159,12 @@
             img {
                 height: 30px;
             }
+        }
+    }
+    @media screen and (max-width: 510px) {
+        svg{
+            height: 40px;
+            margin: 40px 0 40px 10px;
         }
     }
 }

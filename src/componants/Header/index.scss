@@ -40,4 +40,25 @@ nav {
         width: fit-content;
         padding: 20px;
     }
+    @media screen and (max-width: 660px) {
+        padding: 10px;
+        a{
+            font-size: 14px;
+            text-wrap: nowrap;
+        }
+        svg {
+            padding: 10px;
+            height: 40px;
+        }
+    }
+    @media screen and (max-width: 530px) {
+        div{
+            flex-direction: column-reverse;
+            gap: 20px;
+            align-items: flex-end;
+        }
+        a{
+            padding-right: 25px;
+        }
+    }
 }

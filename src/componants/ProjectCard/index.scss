@@ -30,7 +30,6 @@
             background-color: rgb(237, 226, 247);
             opacity: 0.5;
             color: black;
-            
             text-transform: uppercase;
             transition: font-weight 500ms ease, opacity 500ms ease;
             width: fit-content;
@@ -122,5 +121,92 @@
     h3 {
         font-size: 35px;
         margin: 0;
+    }
+    @media screen and (max-width: 1020px) {
+        width: auto;
+    }
+    @media screen and (max-width: 950px) {
+        padding: 30px 20px 0 20px;
+        gap: 20px;
+        height: auto;
+        img {
+            width: 300px;
+        }
+        h3{
+            font-size: 28px;
+        }
+        .project-details{
+            p{
+                font-size: 14px;
+                line-height: 20px;
+            }
+            button{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .project-details{
+            .button-container{
+                gap: 10px;
+            }
+            button{
+                font-size: 12px;
+                svg{
+                    height: 12px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:730px) {
+        img{
+            width: 250px;
+        }
+        .project-details{
+            gap: 20px;
+            .read-more{
+                font-size: 12px;
+            }
+        }
+    }
+    @media screen and (max-width:685px) {
+        img{
+            width: 200px;
+        }
+        .project-details{
+            gap: 20px;
+            .read-more{
+                font-size: 12px;
+            }
+            .icon-container{
+                img{
+                    height: 40px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 590px) {
+        .project-details{
+            .button-container{
+                flex-direction: column;
+                gap: 0;
+                margin: 0;
+                button{
+                    margin-bottom: 10px;
+                }
+            }
+            .icon-container{
+                gap: 10px;
+            }
+        }
+    }
+    @media screen and (max-width: 465px) {
+        .project-details{
+            .icon-container{
+                img{
+                    height: 30px;
+                }
+            }
+        }
     }
 }

@@ -7,14 +7,11 @@ body {
   font-family: syne;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-background-color:hsla(27,100%,98%,1);
-background-image:
-  radial-gradient(900px at 100% 70%, hsla(240,39%,67%,1) -100px, transparent 50%),
-  radial-gradient(800px at 10% 40%, hsla(183,89%,82%,1) -100px, transparent 50%);
-// display: flex;
-// flex-direction: column;
-width: 100%;
-height: 150vh;
+  background-color:hsla(27,100%,98%,1);
+  background-image:
+    radial-gradient(900px at 100% 70%, hsla(240,39%,67%,1) -100px, transparent 50%),
+    radial-gradient(800px at 10% 40%, hsla(183,89%,82%,1) -100px, transparent 50%);
+  width: 100%;
+  height: 150vh;
 }
 

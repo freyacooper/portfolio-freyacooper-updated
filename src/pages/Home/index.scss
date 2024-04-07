@@ -6,13 +6,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-   
-
     h1{
         font-size: 54px;
         font-weight: 400;
-        // color: #01363C;
         color: black;
         margin: 10px 0;
     }
@@ -22,7 +18,6 @@
         animation-fill-mode: backwards;
         animation-timing-function: ease-out;
         animation-delay: 100ms;
-        
     }
     .second{
         animation: text-reveal;
@@ -36,13 +31,12 @@
     }
     button{
         background-color: #DEDEFF     ;
-        padding: 20px 35px;
+        padding: 20px 50px;
         border-radius: 50px;
         border: none;
         font-size: 18px;
         font-family: syne;
         text-transform: uppercase;
-        width: 28%;
         margin: 50px 0 80px 0;
         color: black;
         animation: animate-pop;
@@ -51,6 +45,7 @@
         animation-delay: 3600ms;
         animation-fill-mode: backwards;
         transition: box-shadow 900ms cubic-bezier(.18,.97,.53,1), font-weight 500ms cubic-bezier(.18,.97,.53,1);
+        text-wrap: nowrap;
         &:hover {
             background: linear-gradient(133deg, rgba(222,222,255,1) 35%, rgba(148,241,246,1) 100%);
             box-shadow: 2px 3px 35px 3px rgba(66, 68, 90, 0.25);
@@ -58,8 +53,17 @@
             font-weight: 600;
         }
     }
+    @media screen and (max-width: 950px) {
+        h1{
+            font-size: 46px;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        h1{
+            font-size: 38px;
+        }
+    }
 }
-
 h2 {
     font-size: 50px;
     color: black;
@@ -67,6 +71,9 @@ h2 {
     line-height: 60px;
     font-weight: 600;
     margin: 0 0 20px 0;
+    @media screen and (max-width: 1020px) {
+        font-size: 38px;
+    }
 } 
 #works {
     scroll-behavior: smooth;
@@ -83,14 +90,30 @@ h2 {
     box-shadow: 6px 3px 48px -15px rgba(66, 75, 90, 0.3);
     display: flex;
     align-items: flex-start;
-    
-    
     .card-wrapper {
         display: flex;
         flex-direction: column;
         gap: 50px;
         align-items: center;
         margin: 0 30px 0 40px;
+    }
+    @media screen and (max-width: 1350px) {
+        .card-wrapper{
+            margin: 0;
+        }
+    }
+    @media screen and (max-width: 1300px) {
+        padding: 30px 40px;
+        flex-direction: column;
+        margin: 0;
+        .works-title{
+            position: static;
+            padding-top: 30px;
+        }
+    }
+    @media screen and (max-width:685px) {
+        padding: 10px;
+        border-radius: 50px;
     }
 }
 #about {
@@ -114,6 +137,41 @@ h2 {
         font-size: 20px;
         line-height: 30px;
     }
+    @media screen and (max-width: 1150px) {
+        .img-box{
+            height: 300px;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        gap: 50px;
+        .img-box{
+            height: 250px;
+            width: auto;
+        }
+        p{
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        padding: 80px 4% 80px 6% ;
+        gap: 30px;
+    }
+    @media screen and (max-width: 700px) {
+        flex-direction: column-reverse;
+        padding: 80px 8%;
+        p{
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .img-box{
+            height: 0;
+            img{
+                display: none;
+            }
+        }
+    }
+    
 }
 .skills {
     display: flex;
@@ -163,4 +221,37 @@ h2 {
                 }
             }
         }
+    @media screen and (max-width: 1000px) {
+        .skills-card{
+            flex-direction: column;
+            gap: 0;
+            .card-title{
+                flex-direction: row-reverse;
+                gap: 20px;
+                justify-content: flex-end;
+                width: 100%;
+            }
+            ul{
+                display: flex;
+                width: 100%;
+                gap: 40px;
+            }
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .skills-card{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    @media screen and (max-width: 630px) {
+        padding: 10px;
+    }
+    @media screen and (max-width: 500px) {
+        .skills-card{
+            ul{
+                gap: 15px;
+            }
+        }
+    }
 }
