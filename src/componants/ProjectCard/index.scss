@@ -1,12 +1,12 @@
 .card {
-    width: 780px;
+    width: 790px;
     height: 580px;
     border-radius: 25px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     gap: 50px;
-    padding: 0 60px;
+    padding: 0 40px 0 60px;
     img {
         width: 350px;
         border-radius: 20px 20px 0 0;
@@ -15,16 +15,45 @@
     .project-details {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
         justify-content: center;
         height: 100%;
+        width: 100%;
         .description-container{
             height: 100px;
             overflow: hidden;
         }
+        .read-more-closed {
+            height: fit-content;
+        }
+        .read-more{
+            background-color: rgb(237, 226, 247);
+            opacity: 0.5;
+            color: black;
+            
+            text-transform: uppercase;
+            transition: font-weight 500ms ease, opacity 500ms ease;
+            width: fit-content;
+            cursor: pointer;
+            margin-top: -20px;
+            font-size: 14px;
+            padding: 5px 15px;
+            border-radius: 50px;
+            &:hover{
+                font-weight: 600;
+                opacity: 1;
+            }
+        }
+        .arrow {
+            height: 13px;
+            object-fit: contain;
+            box-shadow: none;
+            transform: rotate(180deg);
+            margin-top: -20px;
+        }
         p {
             margin: 0;
-            font-size: 18px;
+            font-size: 17px;
             line-height: 24px;
         }
         .icon-container {
@@ -79,8 +108,8 @@
             color: black;
             box-shadow: none;
             border: solid 1.5px rgba(0, 0, 0, 0.30);
-            padding: 15px 40px;
-            margin-top: 30px;
+            padding: 15px 30px;
+            margin-top: 20px;
             &:hover {
                 box-shadow: none;
                 opacity: 0.7;

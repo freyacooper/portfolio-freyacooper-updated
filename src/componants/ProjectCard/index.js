@@ -1,14 +1,23 @@
+import { useState } from 'react'
 import './index.scss'
+// import arrow from '../../Photos/arrow.png'
 
 function ProjectCard({ title, tagline, cover, color, site, github, icons }) {
-    console.log(icons)
+
+    const [readMore, setReadMore] = useState(false)
+    console.log(readMore)
+
     return(
         <div className="card" style={{backgroundColor: color}}>
             <img alt="A screenshot of the website" src={cover}/>
             <div className="project-details">
                <h3>{title}</h3>
-               <div className='description-container'>
-                <p>{tagline}</p>
+               <div className={ readMore ? 'read-more-closed' : 'description-container'}>
+                    <p>{tagline}</p>
+               </div>
+               {/* <img src={arrow} alt='flèche' className='arrow'/> */}
+               <div className='read-more' onClick={() => setReadMore(!readMore)}>
+               { readMore ? 'Lire moins' : 'Lire plus'}
                </div>
                <div className='icon-container'>
                 { icons.map((iconSource) => (
