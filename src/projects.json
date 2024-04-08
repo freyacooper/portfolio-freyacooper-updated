@@ -56,7 +56,7 @@
         {
             "id": 4,
             "title": "Kasa",
-            "cover": "/assets/Project covers/KasaHome.png",
+            "cover": "/assets/Project covers/kasaHome.png",
             "description": "Description of project",
             "tagline": "Ce projet de site Web pour des locations immobilières a été réalisé entièrement avec React. Notre objectif était de créer une application multi-pages en utilisant React Router. Ce projet nous a permis de nous familiariser avec la logique de React, la structuration de fichiers, la création de composants réutilisables et le partage de données entre eux.",
             "color": "#f7c2b5",
