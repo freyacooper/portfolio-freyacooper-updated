@@ -49,7 +49,7 @@ function Home() {
                 <div className="skills-container">
                         <div className="skills-card">
                             <div className='card-title'>
-                                <h4>Design</h4>
+                                <h3>Design</h3>
                                 <img alt="" src={designIcon}/>  
                             </div>
                             <p>Je suis passionnée par la psychologie du design, explorant comment les polices de caractères, les couleurs et d'autres détails subtils peuvent influencer les réactions humaines. Laissez-moi fusionner ma créativité innée avec les outils passionnants du monde numérique pour donner vie à vos idées.</p>
@@ -62,7 +62,7 @@ function Home() {
                         </div>
                         <div className="skills-card">
                             <div className='card-title'>
-                                <h4>Développement</h4>
+                                <h3>Développement</h3>
                                 <img alt="" src={devIcon}/> 
                             </div>
                             <p>Le développement web ne se limite pas à coder pour obtenir le résultat souhaité. La capacité à équilibrer délicatement les petites touches incorporées pour stimuler le subconscient tout en faisant preuve de retenue lorsque c'est nécessaire est un art subtil qui sépare le grand de l'exceptionnel.</p>
