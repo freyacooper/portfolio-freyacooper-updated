@@ -11,10 +11,10 @@
             "url": "jennings-chimney-sweeping",
             "site": "https://www.jenningschimneysweeping.com/",
             "icons": [
-                "../../assets/icons/wordpress.png",
-                "../../assets/icons/elementor.png",
-                "../../assets/icons/illustrator.png",
-                "../../assets/icons/xd.png"
+                "../../assets/icons/wordpress.webp",
+                "../../assets/icons/elementor.webp",
+                "../../assets/icons/illustrator.webp",
+                "../../assets/icons/xd.webp"
             ]
         },
         {
@@ -34,8 +34,8 @@
             "site": "https://freyacooper.github.io/Oh_My_Food/",
             "github": "https://github.com/freyacooper/Oh_My_Food",
             "icons": [
-                "../../assets/icons/html.png",
-                "../../assets/icons/sass.png"
+                "../../assets/icons/html.webp",
+                "../../assets/icons/sass.webp"
             ]
         },
         {
@@ -48,9 +48,9 @@
             "url": "sophie-bluel-porfolio",
             "github": "https://github.com/freyacooper/Portfolio_Sophie_Bluel",
             "icons": [
-                "../../assets/icons/html.png",
-                "../../assets/icons/css.png",
-                "../../assets/icons/js.png"
+                "../../assets/icons/html.webp",
+                "../../assets/icons/css.webp",
+                "../../assets/icons/js.webp"
             ]
         },
         {
@@ -63,8 +63,8 @@
             "url": "kasa",
             "github": "https://github.com/freyacooper/kasa",
             "icons": [
-                "../../assets/icons/reacticon.png",
-                "../../assets/icons/sass.png"
+                "../../assets/icons/reacticon.webp",
+                "../../assets/icons/sass.webp"
             ]
         },
         {
@@ -76,9 +76,9 @@
             "color": "#afdece",
             "url": "bivo",
             "icons": [
-                "../../assets/icons/figmaicon.png",
-                "../../assets/icons/xd.png",
-                "../../assets/icons/illustrator.png"
+                "../../assets/icons/figmaicon.webp",
+                "../../assets/icons/xd.webp",
+                "../../assets/icons/illustrator.webp"
             ]
         }
     ]
