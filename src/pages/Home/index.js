@@ -12,8 +12,10 @@ function Home() {
     return(
         <main>
             <div className="main-container">
-                <h1 className="first">The  <span>freedom</span> of creativity</h1> 
-                <h1 className="second">meets the <span>precision</span> of code</h1>
+                <h1>
+                    <span className="first">The  <span className='heavy'>freedom</span> of creativity,</span> <br/>
+                    <span className="second">meets the <span className='heavy'>precision</span> of code</span> 
+                </h1>
                 <a href="#works"> 
                     <button>See projects</button>
                 </a>
@@ -24,8 +26,8 @@ function Home() {
                     <h2>Here's a selection of my previous work</h2>
                 </div>
                 <div className="card-wrapper">
-                    {projects.map(({ title, id, tagline, cover, color, site, github, icons}) => (
-                        <ProjectCard title={title} key={id} tagline={tagline} cover={cover} color={color} site={site} github={github} icons={icons}/>
+                    {projects.map(({ title, id, tagline, cover, color, site, github, icons,}) => (
+                        <ProjectCard key={id} title={title} tagline={tagline} cover={cover} color={color} site={site} github={github} icons={icons}/>
                     ))} 
                     
                 </div>

@@ -11,6 +11,7 @@
         font-weight: 400;
         color: black;
         margin: 10px 0;
+        line-height: 88px;
     }
     .first{
         animation: text-reveal;
@@ -26,7 +27,7 @@
         animation-fill-mode: backwards;
         animation-timing-function: ease-out;
     }
-    span{
+    .heavy{
         font-weight: 700;
     }
     button{
@@ -56,17 +57,20 @@
     @media screen and (max-width: 950px) {
         h1{
             font-size: 46px;
+            line-height: 76px;
         }
     }
     @media screen and (max-width: 800px) {
         height: 70vh;
         h1{
             font-size: 38px;
+            line-height: 60px;
         }
     }
     @media screen and (max-width: 400px) {
         h1{
             font-size: 30px;
+            line-height: 52px;
         }
         button {
             font-size: 16px;
