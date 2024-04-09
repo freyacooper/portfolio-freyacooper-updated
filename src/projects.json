@@ -2,7 +2,7 @@
         {
             "id": 1,
             "title": "Jennings Chimney Sweeping",
-            "cover": "/assets/Project covers/jcssmall.png",
+            "cover": "/assets/Project covers/jcssmall.webp",
             "tagline": "J'ai été chargé de la refonte du site web d'une entreprise locale de ramonage, mon premier projet dans le monde du développement web pendant ma transition entre le graphisme et le développement front-end. Ce projet met en avant mes compétences en design graphique, puisqu'il a été construit en utilisant Wordpress et Elementor, mais il est un excellent exemple de mes compétences en UX/UI.",
             "description": ["Description of project"],
             "color": "#f5b5b5",
@@ -20,7 +20,7 @@
         {
             "id": 2,
             "title": "Oh My Food",
-            "cover": "/assets/Project covers/omfsmall.png",
+            "cover": "/assets/Project covers/omfsmall.webp",
             "description": ["Pour le projet Oh My Food, j'ai eu le privilège de collaborer avec une jeune startup ambitieuse dans le domaine de la restauration. Leur objectif était clair : conquérir le marché parisien en offrant une expérience culinaire innovante.", "Mon rôle consistait à développer un prototype d'un site web 'mobile first' qui permettrait aux clients de composer leur propre menu et de réserver leur repas dans des restaurants gastronomiques sélectionnés. En travaillant avec les maquettes fournis par le graphiste, j'ai pu créer une première version du site interactive, en assurant une expérience utilisateur fluide et intuitive sur toutes les plateformes, que ce soit sur desktop, mobile ou tablette. De plus, j'ai intégré avec précision les animations CSS spécifiées dans les maquettes, ajoutant une touche de dynamisme à l'ensemble du site.", "Ce projet a été une formidable opportunité de mettre en pratique mes compétences en développement web tout en contribuant à la croissance d'une entreprise prometteuse."],
             "tagline": "Pendant ma formation en développement front-end, j'ai été chargé de construire un site à partir d'une maquette prédéfinie, qui permettrait aux clients de composer un menu et de réserver leur repas dans des restaurants. Ce projet visait à évaluer notre compréhension du CSS avec l'introduction du Sass et un accent particulier sur les animations. Ce défi a exigé une approche mobile-first en utilisant uniquement HTML et Sass pour atteindre le résultat attendu.",
             "color": "#EAD5EF",
@@ -41,7 +41,7 @@
         {
             "id": 3,
             "title": "Sophie Bluel Portfolio",
-            "cover": "/assets/Project covers/sophiesmall.png",
+            "cover": "/assets/Project covers/sophiesmall.webp",
             "description": "Description of project",
             "tagline": "Ce projet de portfolio, faisant partie de ma formation en développement web, a été conçu pour introduire l'utilisation de JavaScript. Premièrement pour filtrer des images dans une galerie des photos. Deuxièmement pour gérer la connexion de l'utilisateur pour lui permettre d'effectuer des modifications. Il fallait gérer l'authentification avec le Json Web Token, puis une fois connecté, il faillait lui permettre de supprimer ou ajouter des images à la gallerie.",
             "color": "#d9baa9",
@@ -56,7 +56,7 @@
         {
             "id": 4,
             "title": "Kasa",
-            "cover": "/assets/Project covers/kasasmall.png",
+            "cover": "/assets/Project covers/kasasmall.webp",
             "description": "Description of project",
             "tagline": "Ce projet de site Web pour des locations immobilières a été réalisé entièrement avec React. Notre objectif était de créer une application multi-pages en utilisant React Router. Ce projet nous a permis de nous familiariser avec la logique de React, la structuration de fichiers, la création de composants réutilisables et le partage de données entre eux.",
             "color": "#f7c2b5",
@@ -70,7 +70,7 @@
         {
             "id": 5,
             "title": "Bivo",
-            "cover": "/assets/Project covers/bivosmall.png",
+            "cover": "/assets/Project covers/bivosmall.webp",
             "description": "Description of project",
             "tagline": "J'ai commencé dans cette start-up en tant que graphiste, chargé de créer le logo et l'identité de marque de l'entreprise. Par la suite, j'ai été impliqué dans l'UX/UI du projet, concevant les maquettes du site Web en accordant une attention particulière à l'esthétique, à la fonctionnalité et à l'expérience utilisateur. Maintenant, en tant que développeur Front-End, j'utilise les maquettes que j'ai précédemment conçues pour construire le site web associé.",
             "color": "#afdece",
