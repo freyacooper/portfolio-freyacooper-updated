@@ -5,7 +5,7 @@ import designIcon from '../../Photos/web-design.png'
 import devIcon from '../../Photos/coding.png'
 import Scroller from '../../componants/Scroller'
 import photo from '../../Photos/photobetter.png'
-
+import { Link } from 'react-router-dom'
 
 function Home() {
     
@@ -26,8 +26,10 @@ function Home() {
                     <h2>Here's a selection of my previous work</h2>
                 </div>
                 <div className="card-wrapper">
-                    {projects.map(({ title, id, tagline, cover, color, site, github, icons,}) => (
-                        <ProjectCard key={id} title={title} tagline={tagline} cover={cover} color={color} site={site} github={github} icons={icons}/>
+                    {projects.map(({ title, id, tagline, cover, color, site, github, icons, url}) => (
+                        <Link to={`/project/${url}`}>
+                            <ProjectCard key={id} title={title} tagline={tagline} cover={cover} color={color} site={site} github={github} icons={icons}/>
+                        </Link>
                     ))} 
                     
                 </div>

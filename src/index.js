@@ -6,16 +6,23 @@ import Home from './pages/Home';
 // import Contact from './pages/Contact';
 import './index.scss';
 import Footer from './componants/Footer';
-// import Error from './pages/Error'
+import Error from './pages/Error';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProjectJCS from './pages/JCS';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      
-      <Header />
-      <Home />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Error />} />
+          <Route path='/project/jennings-chimney-sweeping' element={<ProjectJCS />} />
+        </Routes>
+        <Footer />
+      </Router>
   </React.StrictMode>
 );
 
