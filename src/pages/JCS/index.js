@@ -1,4 +1,4 @@
-import jcsbanner from '../../Photos/JCSproject.png'
+import jcsbanner from '../../Photos/JCSbanner.png'
 import homepage from '../../Photos/jcssmall.webp';
 import './index.scss'
 

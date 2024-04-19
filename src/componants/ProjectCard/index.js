@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './index.scss'
 
-function ProjectCard({ title, tagline, cover, color, site, github, icons, id }) {
+function ProjectCard({ title, tagline, cover, color, site, github, icons, id, url }) {
 
     const [readMore, setReadMore] = useState(false)
 
