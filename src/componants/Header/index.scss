@@ -4,7 +4,7 @@ nav {
     gap: 35px;
     justify-content: space-between;
     padding: 0 40px;
-    color: black;
+    color: #211349;
     div {
         display: flex;
         flex-direction: row;
@@ -14,7 +14,7 @@ nav {
     }
     a {
         text-transform: uppercase;
-        color: black;
+        color: #211349;
         text-decoration: none;
         transition: color 400ms ease, font-weight 500ms ease;
         &:hover {
@@ -31,7 +31,7 @@ nav {
             &:hover {
                 background: linear-gradient(133deg, rgba(222,222,255,1) 35%, rgba(148,241,246,1) 100%);
                 box-shadow: 2px 3px 20px 3px rgba(66, 68, 90, 0.22);
-                color: black;
+                color: #211349;
                 font-weight: 600;
             }
     }
@@ -39,6 +39,13 @@ nav {
         height: 60px;
         width: fit-content;
         padding: 20px;
+    }
+    .line {
+        width: 2px;
+        background-color: #370965;
+        opacity: 0.2;
+        height: 35px;
+        border-radius: 50px;
     }
     @media screen and (max-width: 660px) {
         padding: 10px;

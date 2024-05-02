@@ -2,9 +2,10 @@
 
 .cta {
         display: flex;
-        padding: 140px;
-        gap: 60px;
+        justify-content: space-between;
         align-items: center;
+        padding: 150px 120px;
+        color: #211349;
         p {
             font-size: 20px;
             line-height: 30px;
@@ -26,55 +27,45 @@
             font-size: 20px;
             border: none;
             border-radius: 50px;
-            margin-top: 40px;
+            margin-bottom: 30px;
             background-color: #DEDEFF;
             box-shadow: 2px 3px 13px 3px rgba(66, 68, 90, 0.04);
-            transition: font-weight 500ms cubic-bezier(.18,.97,.53,1), box-shadow 700ms cubic-bezier(.18,.97,.53,1);
+            transition: font-weight 500ms cubic-bezier(.18,.97,.53,1), box-shadow 700ms cubic-bezier(.18,.97,.53,1), width 500ms cubic-bezier(.18,.97,.53,1);
             display: flex;
             align-items: center;
             gap: 20px;
             justify-content: flex-start;
+            width: 370px;
+            color: #211349;
             &:hover {
                 background: linear-gradient(133deg, rgba(222,222,255,1) 35%, rgba(148,241,246,1) 100%);
                 box-shadow: 2px 3px 20px 3px rgba(66, 68, 90, 0.15);
                 font-weight: 600;
+                width: 395px;
             }
             svg {
-                height: 30px;
+                height: 20px;
+            }
+            span{
+                svg {
+                    height: 15px;
+                }
             }
         }
-        .image {
+        .buttons {
             display: flex;
-            justify-content: flex-end;
-            img {
-                height: 450px;
-            }
+            flex-direction: column;
+        }
+        .work-together{
+            width: 55%;
         }
         @media screen and (max-width: 1120px) {
             padding: 80px 20px 60px 20px;
-            .image {
-                img {
-                height: 300px;
-                }
-            }
-            
         }
         @media screen and (max-width: 730px) {
-            .image {
-                img {
-                    height: 200px;
-                }
-            }
             p{
                 font-size: 16px;
                 line-height: 24px;
-            }
-        }
-        @media screen and (max-width: 630px) {
-            .image {
-                img {
-                    display: none;
-                }
             }
         }
         @media screen and (max-width: 430px) {
@@ -122,11 +113,7 @@
         color: white;
         margin: 50px 0 50px 80px;
         height: 70px;
-        transition: opacity 400ms ease;
-        &:hover {
-            cursor: pointer;
-            opacity: 0.6;
-        }   
+        transition: opacity 400ms ease;  
     } 
     .socials {
         display: none;
