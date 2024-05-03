@@ -1,21 +1,15 @@
-import { useState } from 'react'
 import './index.scss'
 import { Link } from 'react-router-dom'
 
 function ProjectCard({ title, tagline, cover, color, site, github, icons, id, url }) {
-
-    const [readMore, setReadMore] = useState(false)
 
     return(
         <div className="card" style={{backgroundColor: color}} key={`card${id}`}>
             <img alt="A screenshot of the website" src={cover} key={`photo${id}`} />
             <div className="project-details" key={`details${id}`}>
                <h3>{title}</h3>
-               <div className={ readMore ? 'read-more-closed' : 'description-container'}>
+               <div className='description-container'>
                     <p>{tagline}</p>
-               </div>
-               <div className='read-more' onClick={() => setReadMore(!readMore)}>
-               { readMore ? 'Lire moins' : 'Lire plus'}
                </div>
                <div className='icon-container'>
                 { icons.map((iconSource, index) => (
