@@ -12,8 +12,12 @@ import jcscontent2 from '../../Photos/elements/jcscontent2.png'
 import jcscontent3 from '../../Photos/elements/jcscontent3.png'
 import './index.scss'
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 function ProjJCS() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     const [toggle, setToggle] = useState(false)
     console.log(toggle)
     return (

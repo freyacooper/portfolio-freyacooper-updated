@@ -1,8 +1,12 @@
 import bivobanner from '../../Photos/bivobanner.png'
-import homepage from '../../Photos/jcssmall.webp';
+import homepage from '../../Photos/screens/BivoDeskandMob.png';
 import './index.scss'
+import { useEffect } from 'react';
 
 function ProjBivo() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <img src={bivobanner} alt="" className='project-banner'/>

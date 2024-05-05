@@ -1,8 +1,12 @@
 import sbbanner from '../../Photos/sbbanner.png'
-import homepage from '../../Photos/jcssmall.webp';
+import homepage from '../../Photos/screens/SBDeskandMob.png';
 import './index.scss'
+import { useEffect } from 'react';
 
 function ProjSB() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <img src={sbbanner} alt="" className='project-banner'/>

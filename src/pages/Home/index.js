@@ -12,7 +12,6 @@ import linkedin from '../../Photos/linkedin.png'
 import '../../componants/Footer/index.scss'
 
 function Home() {
-    
     return(
         <main>
             <div className="main">
@@ -41,7 +40,7 @@ function Home() {
                 </div>
                 <div className="card-wrapper">
                     {projects.map(({ title, id, tagline, cover, color, site, github, icons, url}) => (
-                            <ProjectCard key={id} title={title} tagline={tagline} cover={cover} color={color} site={site} github={github} icons={icons} url={url}/>
+                            <ProjectCard key={id} title={title} tagline={tagline} cover={cover} color={color} site={site} github={github} icons={icons} url={url} details={"See project details"} website={"Visit website"}/>
                     ))} 
                     
                 </div>

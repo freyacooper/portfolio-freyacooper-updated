@@ -1,8 +1,12 @@
 import omfbanner from '../../Photos/omfbanner.png'
-import homepage from '../../Photos/jcssmall.webp';
+import homepage from '../../Photos/screens/OMFDeskandMob.png'
 import './index.scss'
+import { useEffect } from 'react';
 
 function ProjOMF() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <img src={omfbanner} alt="" className='project-banner'/>

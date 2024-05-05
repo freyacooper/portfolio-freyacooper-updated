@@ -1,8 +1,12 @@
 import kasabanner from '../../Photos/kasabanner.png'
-import homepage from '../../Photos/jcssmall.webp';
+import homepage from '../../Photos/screens/KasaDeskandMob.png';
 import './index.scss'
+import { useEffect } from 'react';
 
 function ProjKasa() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <img src={kasabanner} alt="" className='project-banner'/>

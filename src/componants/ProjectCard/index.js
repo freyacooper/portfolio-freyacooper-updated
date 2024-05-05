@@ -1,7 +1,7 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
 
-function ProjectCard({ title, tagline, cover, color, site, github, icons, id, url }) {
+function ProjectCard({ title, tagline, cover, color, site, github, icons, id, url, details, website }) {
 
     return(
         <div className="card" style={{backgroundColor: color}} key={`card${id}`}>
@@ -36,7 +36,7 @@ function ProjectCard({ title, tagline, cover, color, site, github, icons, id, ur
                     { site && (
                     <a href={site} target='blank'>
                         <button>
-                            Visit website
+                            {website}
                             <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.67 233.7">
                                 <g id="Layer_1-2" data-name="Layer 1">
                                 <path className="cls-1" d="M101.04,233.64c-19.09,0-38.18.06-57.27-.01C18.26,233.53.14,215.52.08,190.04c-.09-38.18-.11-76.36,0-114.55.07-25.49,18.17-43.45,43.7-43.58,13.11-.07,26.23-.05,39.34,0,7.69.03,12.45,4.07,12.5,10.46.05,6.51-4.98,10.73-12.83,10.73-12.95,0-25.9-.07-38.84,0-13.97.08-22.66,8.79-22.67,22.76-.04,38.18-.04,76.36-.01,114.54,0,12.91,9.02,22.01,21.9,22.03,38.51.05,77.02.05,115.54,0,12.86-.02,21.81-9.04,21.9-22.05.08-13.61-.07-27.23.03-40.84.06-7.55,5.75-12.5,12.55-11.22,5.03.95,8.5,4.73,8.54,10.12.11,15.44.49,30.9-.18,46.31-.93,21.36-19.29,38.33-41.21,38.82-9.96.22-19.92.06-29.88.06-9.79,0-19.59,0-29.38,0Z"/>
@@ -50,7 +50,7 @@ function ProjectCard({ title, tagline, cover, color, site, github, icons, id, ur
                 <div>
                     <Link to={`/project/${url}`}>
                         <button className='see-details'>
-                            See project details
+                            {details}
                             <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 269.95 183.82">
                                 <g id="Layer_1-2" data-name="Layer 1">
                                     <path class="cls-1" d="M230.58,78.96c-4.8-4.5-9.7-8.9-14.37-13.53-15.25-15.13-30.37-30.39-45.63-45.52-3.69-3.66-5.11-7.87-3.45-12.7,1.44-4.21,4.62-7.48,9.2-7.2,3.38.2,7.53,1.34,9.83,3.6,26.7,26.28,53.15,52.82,79.59,79.38,5.68,5.71,5.58,11.89-.07,17.55-26.34,26.42-52.7,52.81-79.11,79.16-5.28,5.27-12.37,5.45-16.88.69-4.65-4.9-4.25-11.53,1.05-16.82,19.8-19.76,39.61-39.5,60.62-60.45-3.2,0-5.04,0-6.87,0-69.81.01-139.62.03-209.43.01-2.31,0-4.71-.05-6.9-.66C2.96,101.02-.25,96.37.02,91.27c.28-5.34,4.14-9.79,9.52-10.69,1.95-.33,3.98-.23,5.98-.23,69.48,0,138.95.03,208.43.04,1.92,0,3.85,0,5.77,0,.29-.48.58-.95.87-1.43Z"/>
