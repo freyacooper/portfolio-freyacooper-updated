@@ -9,14 +9,14 @@ function ProjKasa() {
             <div className='page'>
                 <h1>Kasa</h1>
                 <div className='tag-container'>
-                    <div className='tag ux'>
-                        UX Design
+                    <div className='tag webdev'>
+                        Web development
                     </div>
-                    <div className='tag ui'>
-                        UI Design
+                    <div className='tag react'>
+                        React
                     </div>
-                    <div className='tag graphic'>
-                        Graphic Design
+                    <div className='tag sass'>
+                        Sass
                     </div>
                 </div>
                 <div className='section'>

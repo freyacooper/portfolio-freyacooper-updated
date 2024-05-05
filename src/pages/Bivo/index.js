@@ -15,8 +15,8 @@ function ProjBivo() {
                     <div className='tag ui'>
                         UI Design
                     </div>
-                    <div className='tag graphic'>
-                        Graphic Design
+                    <div className='tag wireframes'>
+                        Wireframes
                     </div>
                 </div>
                 <div className='section'>

@@ -1,22 +1,63 @@
 @import '../../animations/animation.scss';
 .main{
     display: flex;
+    align-items: center;
+    padding: 0 8%;
+    height: 90vh;
     .art-container{
         position: absolute;
         z-index: -1;
         right: 0;
-        bottom: 150px;
         img{
             height: 540px;
-            @media screen and (max-width: 950px) {
-                height: 400px;
+            padding-bottom: 120px;
+        }
+    }
+    @media screen and (max-width: 1370px) {
+        .art-container{
+            img{
+                height: 450px;
+                padding-bottom: 150px;
+            }
+        }
+    }
+    @media screen and (max-width: 1250px) {
+        .art-container{
+            img{
+                height: 380px;
+                padding-bottom: 250px;
+            }
+        }
+    }
+    @media screen and (max-width: 1220px) {
+        .art-container{
+            position: static;
+            img{
+                padding-bottom: 0px;
+            }
+        }
+    }
+    @media screen and (max-width: 1175px) {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding: 80px 8%;
+        .art-container{
+            img{
+                height: 350px;
+            }
+        }
+    }
+    @media screen and (max-width: 800px) {
+        padding: 50px 8%;
+        height: 70vh;
+        .art-container{
+            img{
+                height: 300px;
             }
         }
     }
 }
 .main-container{
-    height: 90vh;
-    padding: 0 8%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,6 +123,9 @@
             }
         }
     }
+    @media screen and (max-width: 1220px) {
+    
+    }
     @media screen and (max-width: 950px) {
         h1{
             font-size: 46px;
@@ -89,7 +133,7 @@
         }
     }
     @media screen and (max-width: 800px) {
-        height: 70vh;
+        
         h1{
             font-size: 38px;
             line-height: 60px;

@@ -9,14 +9,14 @@ function ProjSB() {
             <div className='page'>
                 <h1>Portfolio Sophie Bluel</h1>
                 <div className='tag-container'>
-                    <div className='tag ux'>
-                        UX Design
+                    <div className='tag webdev'>
+                        Web development
                     </div>
-                    <div className='tag ui'>
-                        UI Design
+                    <div className='tag js'>
+                        Javascript
                     </div>
-                    <div className='tag graphic'>
-                        Graphic Design
+                    <div className='tag css'>
+                        CSS
                     </div>
                 </div>
                 <div className='section'>

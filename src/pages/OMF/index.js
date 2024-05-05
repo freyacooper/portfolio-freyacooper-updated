@@ -9,14 +9,14 @@ function ProjOMF() {
             <div className='page'>
                 <h1>Oh My Food</h1>
                 <div className='tag-container'>
-                    <div className='tag ux'>
-                        UX Design
+                    <div className='tag webdev'>
+                        Web development
                     </div>
-                    <div className='tag ui'>
-                        UI Design
+                    <div className='tag html'>
+                        HTML
                     </div>
-                    <div className='tag graphic'>
-                        Graphic Design
+                    <div className='tag sass'>
+                        SASS
                     </div>
                 </div>
                 <div className='section'>
