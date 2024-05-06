@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap');
+
+$roboto: 'Roboto', sans-serif;
+$shrikhand: 'Shrikhand', cursive;
+
+$black: #000000;
+$graphite: #353535;
+$icon-grey: #7E7E7E;
+$dark-grey: #EAEAEA;
+$light-grey: #F6F6F6;
+$purple: #9356DC;
+$pink: #FF79DA;
+$white: #FFFFFF;
+$light-green: #99E2D0;
+$dark-green: #008766;
+
+$large-screen: 1000px;
+$medium-screen: 800px;
+
+$anim-dur: 500ms;
+$num-items: 4;
+$anim-delay: 650ms;
+
+@mixin rectangle-card ($color: $white, $radius: 20px, $padding: 10px, $shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15) ) {
+    border-radius: $radius;
+    box-shadow: $shadow;
+    background-color: $color;
+    padding: $padding;
+}
+
+@mixin text ($size: 18px, $weight: 500, $color: $black, $margin: 0) {
+    font-family: $roboto;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    margin: $margin;
+}
+
+@mixin flex ($direction: column, $justify: space-between, $align: center){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-110%);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    75% {
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.menu-div{
+    width: 60%;
+    margin: 120px auto 0 auto;
+}
+.rest-image {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    img {
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 25px 25px 0 0;
+    }
+}
+.restaurant {
+    @include flex ($align: flex-start);
+    padding: 30px 100px;
+    background-color: $light-grey;
+    border-radius: 50px 50px 25px 25px;
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+    max-width: 1055px;
+    margin: auto auto -50px auto;
+    &__title {
+        @include flex ($direction: row);
+        padding: 0 10px;
+        width: 90%;
+        max-width: 350px;
+        margin: auto;
+        h2 {
+            font-family: $shrikhand;
+            font-weight: 400;
+            margin: 0;
+            font-size: 28px;
+        }
+    }
+    a {
+        align-self: center;
+        margin: 30px 0 20px 0;
+    }
+}
+.menu {
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    &__course {
+        margin: 0 0 15px 0;
+        padding: 30px 0 0 0;
+        position: relative;
+        width: 40px;
+        height: 26px;
+        border-bottom: 3px solid $light-green;
+        animation: slide-up 1000ms ease 100ms backwards;
+        h3 {
+            @include text ($size: 16px, $weight: 300);
+            text-transform: uppercase;
+            position: absolute;
+        }
+    }
+    &__group {
+        width: 100%;
+    }
+}
+
+.hearts-wrapper {
+    position: relative;
+    width: 22px;
+    svg {
+        position: absolute;
+        top: -10px;
+        width: 22px;
+    }
+}
+.liked {
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 500ms ease;
+    &:hover {
+        opacity: 1;
+        
+    }
+}
+
+.menu-item {
+   
+    @include rectangle-card ($radius: 15px,$padding: 0px, $shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10));
+    @include flex ($direction: row, $align: flex-end);
+    margin-bottom: 12px;
+    gap: 0px;
+    position: relative;
+    min-width: 0;
+    overflow: hidden;
+    animation: 500ms ease-out backwards slide-in;
+    @for $i from 1 through $num-items {
+        &--#{$i} {
+            animation-delay: $anim-delay + ($i * 200);
+        }
+    }
+    &:hover {
+        h5 {
+            transform: translateX(-59px); 
+        }
+        .menu-item__check {
+            right: 0;
+        }
+        h4, p {
+            width: calc(100% - 59px);
+        }
+    }
+    h5{
+        padding: 0 15px 15px 5px;
+        transition: transform 500ms ease;
+        @include text ($weight: 700);
+    }
+    h4 {
+        @include text ();
+    }
+    p {
+        @include text ($size: 15px, $weight: 300);
+    }
+    &__content {
+        @include flex ($align: flex-start);
+        gap: 5px;
+        padding: 12px 0 12px 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+        h4, p {
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            min-width: 0;
+            transition: width 250ms ease;
+        }
+    }
+    &__check {
+        border-radius: 0 15px 15px 0;
+        height: 78px;
+        width: 59px;
+        background-color: $light-green;
+        @include flex ($justify: center);
+        position: absolute;
+        right: -59px;
+        transition: right 500ms ease 50ms;
+        img {
+            height: 35px;
+        }
+    }
+}
+.button {
+    @include text ($size: 16px, $color: $white);
+    background-image: linear-gradient($pink, $purple);
+    border: none;
+    padding: 16px;
+    width: 200px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 500ms ease 100ms,
+                opacity 500ms ease;
+    margin: 25px auto 10px auto;
+    &:hover {
+        opacity: 0.85;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+    }
+}
+.mobile-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 80px 0 30px 0;
+    .mobfirst-screen{
+        height: 650px;
+        box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
+        border-radius: 26px;
+    }
+    .arr{
+        height: 40px;
+    }
+}
+.section-div{
+    margin: 180px 0 180px 0;
+}
+.p1{
+    display: flex;
+    gap: 100px;
+    margin: 110px 0 110px 0;
+    .gif{
+        border-radius: 22px;
+        width: 500px;
+        object-fit: cover;
+    }       
+}
