@@ -28,12 +28,16 @@ function ProjSB() {
                         <img src={homepage} alt=''/>
                     </div>
                     <div className='text'>
-                        <p>Jennings Chimney Sweeping is a dedicated one-man operation, specializing in chimney sweeping services while also prioritizing education and safety through their informative website and blog space.</p>
-                        <p>My role in this project was to redesign the entire website, giving it a modern and inviting aesthetic while ensuring user-friendliness and accessibility to the wealth of information available. Additionally, I created a separate page specifically dedicated to the extensive articles and educational content, aptly named the "blog space." Alongside the redesign, I implemented adjustments to optimize the site for mobile devices, enhancing its reach and usability across various platforms.</p>
+                        <p>Whilst on my front-end web development course, this project served as my initiation into the world of JavaScript. JavaScript expands the possibilities of web development by enabling dynamic and interactive features beyond HTML and CSS, including form validation, user input handling, and real-time updates, resulting in more engaging and responsive web experiences.</p>
+                        <p>The project centered around the creation of a portfolio website for an interior decorator, offering a platform to showcase her work in a modifiable gallery while retaining full control over its content without the risk of unauthorized modifications.</p>
                     </div>
                 </div>
                 <div>
-                    <h2>Brand Identity</h2>
+                    <h2>The gallery</h2>
+                    <p>The first step was to build the gallery to showcase her work. We then used Javascript to be able to quickly filter the photos, making an interactive experience for users viewing her work.</p>
+                    <div className='gallery'>
+
+                    </div>
                 </div>
             </div>
         </div>

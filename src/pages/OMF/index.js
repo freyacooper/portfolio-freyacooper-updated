@@ -7,7 +7,7 @@ import tick from '../../Photos/elements/tick.svg'
 import omfmob from '../../Photos/elements/omfmob.png'
 import omfdesk from '../../Photos/elements/omfdesk.png'
 import arrow from '../../Photos/elements/arrow_2.png'
-import menuanim from '../../Photos/elements/menuanim2.gif'
+import menuanim from '../../Photos/elements/menuanim3.gif'
 import homeanim from '../../Photos/elements/homeanim.gif'
 
 function ProjOMF() {
