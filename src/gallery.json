@@ -1,5 +1,56 @@
 [
     {
-        "id": 1
+        "category": "Appartements",
+        "id": 4,
+        "imageUrl": "/assets/galleryPhotos/la-balisiere.png",
+        "title": "Villa “La Balisiere” - Port Louis"
+    },
+    {
+        "category": "Objets",
+        "id": 5,
+        "imageUrl": "/assets/galleryPhotos/structures-thermopolis.png",
+        "title": "Structures Thermopolis"
+    },
+    {
+        "category": "Appartements",
+        "id": 6,
+        "imageUrl": "/assets/galleryPhotos/appartement-paris-x.png",
+        "title": "Appartement Paris X"
+    },
+    {
+        "category": "Appartements",
+        "id": 7,
+        "imageUrl": "/assets/galleryPhotos/le-coteau-cassis.png",
+        "title": "Pavillon “Le coteau” - Cassis"
+    },
+    {
+        "category": "Appartements",
+        "id": 8,
+        "imageUrl": "/assets/galleryPhotos/villa-ferneze.png",
+        "title": "Villa Ferneze - Isola d’Elba"
+    },
+    {
+        "category": "Appartements",
+        "id": 9,
+        "imageUrl": "/assets/galleryPhotos/appartement-paris-xviii.png",
+        "title": "Appartement Paris XVIII"
+    },
+    {
+        "category": "Hotels & Restaurants",
+        "id": 10,
+        "imageUrl": "/assets/galleryPhotos/bar-lullaby-paris.png",
+        "title": "Bar “Lullaby” - Paris"
+    },
+    {
+        "category": "Hotels & Restaurants",
+        "id": 16,
+        "imageUrl": "/assets/galleryPhotos/restaurant-sushisen-londres.png",
+        "title": "Restaurant Sushisen - Londres"
+    },
+    {
+        "category": "Hotels & Restaurants",
+        "id": 17,
+        "imageUrl": "/assets/galleryPhotos/hotel-first-arte-new-delhi.png",
+        "title": "Hotel First Arte - New Delhi"
     }
 ]
