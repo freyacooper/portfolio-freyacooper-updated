@@ -5,6 +5,11 @@ nav {
     justify-content: space-between;
     padding: 0 40px;
     color: #211349;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: #FEFBF7;
+    z-index: 999;
     div {
         display: flex;
         flex-direction: row;

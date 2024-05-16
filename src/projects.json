@@ -65,6 +65,7 @@
             "frtagline": "Kasa est un site de location théorique que j'ai construit en utilisant React dans le cadre de ma formation. Il utilise React Router pour afficher les différentes pages d'annonces.",
             "color": "#f7c2b5",
             "url": "kasa",
+            "site": "https://kasa-omega-one.vercel.app/",
             "github": "https://github.com/freyacooper/kasa",
             "icons": [
                 "../../assets/icons/reacticon.webp",

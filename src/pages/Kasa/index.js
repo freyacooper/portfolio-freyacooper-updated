@@ -28,12 +28,25 @@ function ProjKasa() {
                         <img src={homepage} alt=''/>
                     </div>
                     <div className='text'>
-                        <p>Jennings Chimney Sweeping is a dedicated one-man operation, specializing in chimney sweeping services while also prioritizing education and safety through their informative website and blog space.</p>
-                        <p>My role in this project was to redesign the entire website, giving it a modern and inviting aesthetic while ensuring user-friendliness and accessibility to the wealth of information available. Additionally, I created a separate page specifically dedicated to the extensive articles and educational content, aptly named the "blog space." Alongside the redesign, I implemented adjustments to optimize the site for mobile devices, enhancing its reach and usability across various platforms.</p>
+                        <p>As part of my front-end development course, I worked on a project to create a website for Kasa, an imaginary company specializing in rental properties between individuals. This project introduced us to React, a powerful JavaScript library for building user interfaces. </p>
+                        <p>The entire website was developed using React, and because each property listing required its own page, we utilized React Router to transform the single-page application into a multi-page site. The focus of this project was to learn the new component-based logic and structure of React while staying true to the provided wireframes. Additionally, we continued to implement previously learned web development techniques such as responsive web design and animations, ensuring a seamless and engaging user experience.</p>
                     </div>
                 </div>
                 <div>
-                    <h2>Brand Identity</h2>
+                    <h2>Workflow with React</h2>
+                    <p>Transitioning to React from traditional HTML, CSS, and JavaScript brought several key differences to my workflow. With the component-based architecture of React, I learned to build reusable and self-contained UI elements. This modular design approach that React brings, lends perfectly to an organized file structure where each page or component had its own folder containing the component file and its corresponding SCSS styles.</p>
+                    <div>
+                        <img src='' alt='Folder architecture of this React project.'/>
+                        <img src='' alt='Code for one of the React component files in this project.'/>
+                    </div>
+                </div>
+                <div>
+                    <h2>React Router</h2>
+                    <div>
+                        <p>React Router is a powerful library for React that enables navigation and routing in web applications. It allows us to turn a single-page application (SPA) into a multi-page experience, making it easy to manage different views and URLs within the app. With React Router, users can navigate through various pages without refreshing the entire page, creating a smooth and dynamic user experience.</p>
+                        <p>In this project, I used React Router to transform the Kasa website from a single-page application into a multi-page site. This allowed each property listing to have its own dedicated page, enhancing the user experience and making navigation intuitive. </p>
+                    </div>
+                    <img src='' alt='Code showing the React Router used for this project.'/>
                 </div>
             </div>
             <div className='footer'>
