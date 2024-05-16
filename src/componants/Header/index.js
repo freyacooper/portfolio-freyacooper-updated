@@ -9,10 +9,10 @@ function Header() {
         { langEn ? (
         <nav>
             <div>
-                <a href='#works'>Works</a>
-                <a href='#skills'>Services</a>
-                <a href='#about'>About Me</a>
-                <a href='#contact' className="special-nav">Get in touch</a>
+                <a href='/#works'>Works</a>
+                <a href='/#skills'>Services</a>
+                <a href='/#about'>About Me</a>
+                <a href='/#contact' className="special-nav">Get in touch</a>
                 <div className='line'></div>
                 <Link to='/fr' onClick={() => setLangEn(!langEn)}>FR</Link> 
             </div>
@@ -25,10 +25,10 @@ function Header() {
         ) : (
         <nav>
             <div>
-                <a href='#works'>Projets</a>
-                <a href='#skills'>Services</a>
-                <a href='#about'>À propos</a>
-                <a href='#contact' className="special-nav">Contact</a>
+                <a href='/fr/#works'>Projets</a>
+                <a href='/fr/#skills'>Services</a>
+                <a href='/fr/#about'>À propos</a>
+                <a href='/fr/#contact' className="special-nav">Contact</a>
                 <div className='line'></div>
                 <Link to='/' onClick={() => setLangEn(!langEn)}>EN</Link> 
             </div>
