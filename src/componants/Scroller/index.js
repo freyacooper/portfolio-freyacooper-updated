@@ -31,22 +31,6 @@ function Scroller() {
                 <img alt="" src={ai}/>
                 <img alt="" src={xd}/>
                 <img alt="" src={figma}/>
-
-                {/* <p>Logo set</p>
-            <p>Branding</p>
-            <p>Web design</p>
-            <p>Content design</p>
-            <p>Web development</p> 
-            <p>Wireframes</p>
-            <p>Prototypes</p>
-
-            <p>Logo set</p>
-            <p>Branding</p>
-            <p>Web design</p>
-            <p>Content design</p>
-            <p>Web development</p> 
-            <p>Wireframes</p>
-            <p>Prototypes</p> */}
            
             </div>
             
