@@ -63,14 +63,19 @@ nav {
             height: 40px;
         }
     }
-    @media screen and (max-width: 530px) {
-        div{
+    @media screen and (max-width: 600px) {
+        .nav-container{
             flex-direction: column-reverse;
-            gap: 20px;
-            align-items: flex-end;
         }
+    }
+    @media screen and (max-width: 350px) {
         a{
-            padding-right: 25px;
+            font-size: 12px;
+        }
+        .nav-container{
+            div{
+                gap: 15px;
+            }
         }
     }
 }

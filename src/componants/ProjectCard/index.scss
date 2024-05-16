@@ -210,19 +210,15 @@
         }
     }
     @media screen and (max-width: 465px) {
+        flex-direction: column-reverse;
+        align-items: center;
         .project-details{
             .icon-container{
                 img{
                     height: 30px;
+                    width: 100%;
                 }
             }
-        }
-    }
-    @media screen and (max-width: 430px) {
-        flex-direction: column-reverse;
-        align-items: center;
-        img{
-            width: 100%;
         }
     }
 }

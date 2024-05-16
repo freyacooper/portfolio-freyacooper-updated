@@ -2,6 +2,12 @@ import kasabanner from '../../Photos/kasabanner.png'
 import homepage from '../../Photos/screens/KasaDeskandMob.png';
 import './index.scss'
 import { useEffect } from 'react';
+import folders from '../../Photos/elements/kasaFolders.png'
+import router from '../../Photos/elements/kasaRouter.png'
+import comp from '../../Photos/elements/kasaComp2.png'
+import logement1 from '../../Photos/elements/logement1.png'
+import logement2 from '../../Photos/elements/logement2.png'
+
 
 function ProjKasa() {
     useEffect(() => {
@@ -35,18 +41,23 @@ function ProjKasa() {
                 <div>
                     <h2>Workflow with React</h2>
                     <p>Transitioning to React from traditional HTML, CSS, and JavaScript brought several key differences to my workflow. With the component-based architecture of React, I learned to build reusable and self-contained UI elements. This modular design approach that React brings, lends perfectly to an organized file structure where each page or component had its own folder containing the component file and its corresponding SCSS styles.</p>
-                    <div>
-                        <img src='' alt='Folder architecture of this React project.'/>
-                        <img src='' alt='Code for one of the React component files in this project.'/>
+                    <div className='photos-div'>
+                        <img src={folders} alt='Folder architecture of this React project.'/>
+                        <img src={comp} alt='Code for one of the React component files in this project.'/>
                     </div>
                 </div>
-                <div>
+                <div className='router-section'>
                     <h2>React Router</h2>
-                    <div>
-                        <p>React Router is a powerful library for React that enables navigation and routing in web applications. It allows us to turn a single-page application (SPA) into a multi-page experience, making it easy to manage different views and URLs within the app. With React Router, users can navigate through various pages without refreshing the entire page, creating a smooth and dynamic user experience.</p>
+                    <p>React Router is a powerful library for React that enables navigation and routing in web applications. It allows us to turn a single-page application (SPA) into a multi-page experience, making it easy to manage different views and URLs within the app. With React Router, users can navigate through various pages without refreshing the entire page, creating a smooth and dynamic user experience.</p>
+                    <div className='div'>
                         <p>In this project, I used React Router to transform the Kasa website from a single-page application into a multi-page site. This allowed each property listing to have its own dedicated page, enhancing the user experience and making navigation intuitive. </p>
+                        <img src={router} alt='Code showing the React Router used for this project.'/>
                     </div>
-                    <img src='' alt='Code showing the React Router used for this project.'/>
+                </div>
+                <p>this is </p>
+                <div className='photos-div'>
+                    <img src={logement1} alt=''/>
+                    <img src={logement2} alt=''/>
                 </div>
             </div>
             <div className='footer'>

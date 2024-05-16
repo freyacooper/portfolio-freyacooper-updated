@@ -11,7 +11,6 @@
         display: flex;
         justify-content: space-between;
         animation: scroll 18s infinite linear;
-    
     }
     p {
         font-size: 24px;
@@ -21,5 +20,12 @@
     img {
         height: 60px;
         padding: 0 45px 0 45px;
+    }
+    @media screen and (max-width: 480px) {
+        gap: 0;
+        img {
+            height: 30px;
+            padding: 0 20px 0 20px;
+        }
     }
 }

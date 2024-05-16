@@ -1,0 +1,25 @@
+.photos-div{
+    display: flex;
+    gap: 100px;
+    padding: 40px 0;
+    img{
+        border-radius: 20px;
+        object-fit: cover;
+        height: 350px;
+        box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
+    }
+}
+.router-section {
+    margin-top: 150px;
+    img {
+        border-radius: 20px;
+        width: 50%;
+        box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
+        object-fit: cover;
+    }
+    .div{
+        display: flex;
+        gap: 50px;
+        padding-right: 40px;
+    }
+}

@@ -57,6 +57,21 @@
             }
         }
     }
+    @media screen and (max-width: 600px) {
+        .art-container{
+            img{
+                height: 250px;
+            }
+        }
+    }
+    @media screen and (max-width: 380px) {
+        height: 70vh;
+        .art-container{
+            img{
+                height: 200px;
+            }
+        }
+    }
     
 }
 .main-container{
@@ -127,9 +142,6 @@
             }
         }
     }
-    @media screen and (max-width: 1220px) {
-    
-    }
     @media screen and (max-width: 950px) {
         h1{
             font-size: 46px;
@@ -137,13 +149,14 @@
         }
     }
     @media screen and (max-width: 800px) {
-        
+        padding-top: 20px;
         h1{
             font-size: 38px;
             line-height: 60px;
         }
     }
     @media screen and (max-width: 400px) {
+        padding-top: 20px;
         h1{
             font-size: 30px;
             line-height: 52px;
@@ -274,6 +287,9 @@ h2 {
         div{
             width: 100%;
         }
+        h2{
+            min-width: 0;
+        }
     }
     @media screen and (max-width: 360px) {
         padding: 80px 10px;
@@ -338,32 +354,60 @@ h2 {
                 flex-direction: row-reverse;
             }
         }
-    @media screen and (max-width: 1000px) {
-        .skills-card{
+   @media screen and (max-width: 1000px) {
+    &-container{
+        .section{
+            .img{
+                img{
+                    width: 300px;
+                }
+            }
+        }
+    }
+   }
+   @media screen and (max-width: 800px) {
+    &-container{
+        .section{
             flex-direction: column;
-            gap: 0;
-            .card-title{
-                flex-direction: row-reverse;
-                gap: 20px;
-                justify-content: flex-end;
+            gap: 30px;
+            .card-text{
                 width: 100%;
             }
         }
     }
-    @media screen and (max-width: 800px) {
-        .skills-card{
-            font-size: 16px;
-            line-height: 24px;
+   }
+   @media screen and (max-width: 800px) {
+    h2{
+        min-width: 0;
+    }
+   }
+}
+.cta {
+    @media  screen and (max-width: 950px) {
+        .buttons{
+            a {
+                button{
+                    font-size: 14px;
+                    width: 80%;
+                }
+            }
         }
     }
-    @media screen and (max-width: 630px) {
-        padding: 10px;
-    }
-    @media screen and (max-width: 450px) {
-        .skills-card{
-            img{
-                width: 40px;
+    @media  screen and (max-width: 700px) {
+        flex-direction: column-reverse;
+        gap: 80px;
+        .buttons{
+            a{
+                button{
+                    width: 100%;
+                }
             }
+        }
+        .work-together {
+            h2{
+                min-width: 0;
+            }
+            
         }
     }
 }

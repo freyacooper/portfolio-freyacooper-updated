@@ -6,9 +6,6 @@ import photo from '../../Photos/photobetter.png'
 import designLaptop from '../../Photos/design laptop.jpeg'
 import devLaptop from '../../Photos/dev laptop.jpeg'
 import artwork from '../../Photos/artwork5.png'
-import fb from '../../Photos/fb.png'
-import insta from '../../Photos/insta.png'
-import linkedin from '../../Photos/linkedin.png'
 import '../../componants/Footer/index.scss'
 
 function Home() {
@@ -167,11 +164,6 @@ function Home() {
                     <a href='/#works'>Works</a>
                     <a href='/#skills'>Services</a>
                     <a href='/#about'>About Me</a>
-                </div>
-                <div className='socials undersocials'>
-                    <img src={fb} alt=""/>
-                    <img src={insta} alt=""/>
-                    <img src={linkedin} alt=""/>
                 </div>
             </div>
         </main>

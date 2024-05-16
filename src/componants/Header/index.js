@@ -8,13 +8,17 @@ function Header() {
         <>
         { langEn ? (
         <nav>
-            <div>
-                <a href='/#works'>Works</a>
-                <a href='/#skills'>Services</a>
-                <a href='/#about'>About Me</a>
-                <a href='/#contact' className="special-nav">Get in touch</a>
-                <div className='line'></div>
-                <Link to='/fr' onClick={() => setLangEn(!langEn)}>FR</Link> 
+            <div className='nav-container'>
+                <div>
+                    <a href='/#works'>Works</a>
+                    <a href='/#skills'>Services</a>
+                    <a href='/#about'>About Me</a>
+                </div>
+                <div>
+                    <a href='/#contact' className="special-nav">Get in touch</a>
+                    <div className='line'></div>
+                    <Link to='/fr' onClick={() => setLangEn(!langEn)}>FR</Link> 
+                </div>
             </div>
             <Link to='/'>
             <svg width="165" height="277" viewBox="0 0 165 277" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,9 +29,11 @@ function Header() {
         ) : (
         <nav>
             <div>
-                <a href='/fr/#works'>Projets</a>
-                <a href='/fr/#skills'>Services</a>
-                <a href='/fr/#about'>À propos</a>
+                <div>
+                    <a href='/fr/#works'>Projets</a>
+                    <a href='/fr/#skills'>Services</a>
+                    <a href='/fr/#about'>À propos</a>
+                </div>
                 <a href='/fr/#contact' className="special-nav">Contact</a>
                 <div className='line'></div>
                 <Link to='/' onClick={() => setLangEn(!langEn)}>EN</Link> 
