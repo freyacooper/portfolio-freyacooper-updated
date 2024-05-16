@@ -2,6 +2,7 @@ import bivobanner from '../../Photos/bivobanner.png'
 import homepage from '../../Photos/screens/BivoDeskandMob.png';
 import './index.scss'
 import { useEffect } from 'react';
+import Moodboard from '../../Photos/elements/BivoMoodboard2.png'
 
 function ProjBivo() {
     useEffect(() => {
@@ -34,6 +35,7 @@ function ProjBivo() {
                 </div>
                 <div>
                     <h2>Brand Identity</h2>
+                    <img className='moodboard' src={Moodboard} alt='Moodboard for Bivos brand identity, logos, brand colour scheme, images to show the feeling of the brand.'/>
                 </div>
             </div>
         </div>
