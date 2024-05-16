@@ -45,10 +45,13 @@
   }
 
   @keyframes scroll {
-    from {
+    0% {
         transform: translateX(0);
     }
-    to {
-        transform: translateX(-93%);
+    100% {
+        transform: translateX(-100vw);
     }
+    // 100% {
+    //     transform: translateX(0);
+    // }
   }

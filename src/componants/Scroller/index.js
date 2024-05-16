@@ -22,7 +22,8 @@ function Scroller() {
                 <img alt="" src={ai}/>
                 <img alt="" src={xd}/>
                 <img alt="" src={figma}/>
-            
+            </div>
+            <div>
                 <img alt="" src={react}/>
                 <img alt="" src={html}/>
                 <img alt="" src={js}/>
@@ -31,8 +32,8 @@ function Scroller() {
                 <img alt="" src={ai}/>
                 <img alt="" src={xd}/>
                 <img alt="" src={figma}/>
-           
             </div>
+            
             
         </div>
     )
