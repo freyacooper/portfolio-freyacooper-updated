@@ -9,6 +9,10 @@ import omfdesk from '../../Photos/elements/omfdesk.png'
 import arrow from '../../Photos/elements/arrow_2.png'
 import menuanim from '../../Photos/elements/menuanim3.gif'
 import homeanim from '../../Photos/elements/homeanim.gif'
+import SassFolders from '../../Photos/elements/SassFolders.png'
+import SassVariables from '../../Photos/elements/SassVariables.png'
+import SassMixins from '../../Photos/elements/SassMixins.png'
+
 
 function ProjOMF() {
     useEffect(() => {
@@ -50,7 +54,23 @@ function ProjOMF() {
                 </div>
                 <div className='section-div'>
                     <h2>Advantages of Sass</h2>
-                    <p>In this project, I was introduced to the power of Sass, a CSS preprocessor that revolutionizes the way stylesheets are written and managed. Sass extends the capabilities of CSS by introducing features like variables, mixins, nesting, and more. With Sass, stylesheets can be broken down into smaller, modular components, facilitating better organization and enhancing code readability. Additionally, Sass's variable feature allows for the creation of reusable values, making it simpler to maintain consistency across the project and facilitating future updates.</p>
+                    <div className='sass-div'>
+                        <p>In this project, I was introduced to the power of Sass, a CSS preprocessor that revolutionizes the way stylesheets are written and managed. Sass extends the capabilities of CSS by introducing features like variables, mixins, nesting, and more. With Sass, stylesheets can be broken down into smaller, modular components, facilitating better organization and enhancing code readability. Additionally, Sass's variable feature allows for the creation of reusable values, making it simpler to maintain consistency across the project and facilitating future updates.</p>
+                        <div>
+                            <img src={SassFolders} alt='Screenshot of Sass folder architecture'/>
+                            <p className='caption'>Sass folder organization</p>
+                        </div>
+                    </div>
+                    <div className='sass-div-photos'>
+                        <div>
+                           <img src={SassVariables} alt='Screenshot of Sass variables'/>
+                           <p className='caption'>Sass variables used for this project</p>
+                        </div>
+                        <div>
+                           <img src={SassMixins} alt='Screenshot of Sass mixins'/>
+                           <p className='caption'> Examples of Sass mixins using the variables</p> 
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <h2>Animations</h2>
