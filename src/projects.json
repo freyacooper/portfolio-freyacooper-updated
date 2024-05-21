@@ -1,6 +1,22 @@
  [
-        {
-            "id": 1,
+    {
+        "id": 1,
+        "title": "Bivo",
+        "cover": "/assets/Project covers/bivosmall.webp",
+        "description": "Description of project",
+        "tagline": "I started in a graphic design role at Bivo, a small short-term rental property Start-up, then transitioned to a UX/UI design position, creating the wireframe for the different versions of the site.",
+        "frtagline": "J'ai commencé dans un rôle de graphiste chez Bivo, une petite Start-up de location de courte durée, puis j'ai évolué vers un poste de designer UX/UI, en créant la maquette des différentes versions du site.",
+        "color": "#afdece",
+        "url": "bivo",
+        "icons": [
+            "../../assets/icons/figmaicon.webp",
+            "../../assets/icons/xd.webp",
+            "../../assets/icons/illustrator.webp"
+        ]
+    },
+    
+    {
+            "id": 2,
             "title": "Jennings Chimney Sweeping",
             "cover": "/assets/Project covers/jcssmall.webp",
             "tagline": "A local chimney sweeping business wanted to redesign the existing website and add some additional features.",
@@ -16,21 +32,6 @@
                 "../../assets/icons/elementor.webp",
                 "../../assets/icons/illustrator.webp",
                 "../../assets/icons/xd.webp"
-            ]
-        },
-        {
-            "id": 2,
-            "title": "Bivo",
-            "cover": "/assets/Project covers/bivosmall.webp",
-            "description": "Description of project",
-            "tagline": "I started in a graphic design role at Bivo, a small short-term rental property Start-up, then transitioned to a UX/UI design position, creating the wireframe for the different versions of the site.",
-            "frtagline": "J'ai commencé dans un rôle de graphiste chez Bivo, une petite Start-up de location de courte durée, puis j'ai évolué vers un poste de designer UX/UI, en créant la maquette des différentes versions du site.",
-            "color": "#afdece",
-            "url": "bivo",
-            "icons": [
-                "../../assets/icons/figmaicon.webp",
-                "../../assets/icons/xd.webp",
-                "../../assets/icons/illustrator.webp"
             ]
         },
         {

@@ -68,7 +68,7 @@ function ProjBivo() {
                 </div>
                 <div className='wireframes'>
                     <h2>Wireframes</h2>
-                    <p>Introducing our design process, we began by crafting the mobile version of the site, prioritizing a seamless and user-friendly experience for individuals accessing Bivo while on the move. Recognizing the prevalence of mobile usage, we meticulously designed each aspect to ensure ease of navigation and engagement. Subsequently, we expanded our focus to include desktop and tablet versions, ensuring that Bivo's interface remains intuitive and visually appealing across all devices. </p>
+                    <p>Introducing our design process, we began by crafting the mobile version of the site, prioritizing a seamless and user-friendly experience for individuals accessing Bivo while on the move. Recognizing the prevalence of mobile usage, each aspect was meticulously designed to ensure ease of navigation and engagement. Subsequently, we expanded our focus to include desktop and tablet versions, ensuring that Bivo's interface remains intuitive and visually appealing across all devices. </p>
                     <img  className='moodboard xd' src={xdMobile} alt='Screenshot of Xd file with mobile wireframes'/>
                     <div className='phones'>
                         <img src={phone1} alt='screen shot of the bivo mobile website'/>
