@@ -41,7 +41,7 @@ function ProjKasa() {
                 <div>
                     <h2>Workflow with React</h2>
                     <p>Transitioning to React from traditional HTML, CSS, and JavaScript brought several key differences to my workflow. With the component-based architecture of React, I learned to build reusable and self-contained UI elements. This modular design approach that React brings, lends perfectly to an organized file structure where each page or component had its own folder containing the component file and its corresponding SCSS styles.</p>
-                    <div className='photos-div'>
+                    <div className='photos-div workflow'>
                         <img src={folders} alt='Folder architecture of this React project.'/>
                         <img src={comp} alt='Code for one of the React component files in this project.'/>
                     </div>

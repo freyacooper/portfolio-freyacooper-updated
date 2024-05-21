@@ -18,16 +18,27 @@
     }
     h2{
         font-size: 34px;
+        width: fit-content;
+        @media screen and (max-width: 400px) {
+            font-size: 28px;
+            min-width: auto;
+        }
     }
     .tag-container{
         display: flex;
         gap: 15px;
         text-transform: uppercase;
         font-size: 14px;
+        flex-wrap: wrap;
+        @media screen and (max-width:450px) {
+            font-size: 10px;
+            gap: 10px;
+        }
         .tag{
             padding: 8px 20px;
             border-radius: 50px;
             color: #211349;
+            text-wrap: nowrap;
         }
         .ux {
             background-color: rgb(213, 252, 239);
@@ -66,12 +77,23 @@
         justify-content: space-between;
         gap: 80px;
         margin: 60px 0;
+        @media screen and (max-width: 1050px) {
+            gap: 0;
+        }
+        @media screen and (max-width: 800px) {
+            flex-direction: column;
+        }
     }
     p{
         font-size: 18px;
         line-height: 28px;
         margin-bottom: 20px;
         color: #211349;
+        @media screen and (max-width: 450px) {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
     }
     .image {
         box-shadow: none;
@@ -81,6 +103,30 @@
         justify-content: flex-start;
         img {
            height: 550px; 
+        }
+        @media screen and (max-width: 1000px) {
+            margin: 0;
+            img{
+                height: 400px;
+            }
+        }
+        @media screen and (max-width: 800px) {
+            margin: 0;
+            img{
+                height: 100%;
+                width: 400px;
+                margin: auto;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            img{
+                width: 300px;
+            }
+        }
+        @media screen and (max-width: 350px) {
+            img{
+                width: 280px;
+            }
         }
     }
     .screenshot{
@@ -106,6 +152,10 @@
         display: block;
         border-radius: 100px;
         position: relative;
+        @media screen and (max-width: 550px) {
+            height: 30px;
+            width: 50px;
+        }
     }
     
     label:after {
@@ -118,6 +168,12 @@
         background: #fff;
         border-radius: 90px;
         transition: 0.3s;
+        @media screen and (max-width: 550px) {
+            width: 20px;
+            height: 20px;
+            top: 2;
+            
+        }
     }
     
     input:checked + label {
@@ -131,6 +187,9 @@
     
     label:active:after {
         width: 50px;
+        @media screen and (max-width: 550px) {
+            width: 25px;
+        }
     }
 
     .toggle {
@@ -142,6 +201,10 @@
             margin: 0 10px 0 30px;
             width: 120px;
             color: #211349;
+            @media screen and (max-width: 550px) {
+                width: fit-content;
+                margin: 0 0 0 10px;
+            }
         }
     }
     .toggle-img {
@@ -153,6 +216,12 @@
             box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
             border-radius: 20px;
             margin: 30px;
+            @media screen and (max-width: 500px) {
+                width: 350px;
+            }
+            @media screen and (max-width: 400px) {
+                width: 300px;
+            }
         }
     }
     .blog-container {
@@ -166,6 +235,14 @@
             border-radius: 20px;
             box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
         }
+        @media screen and (max-width: 750px){
+            padding: 50px 0 80px 0;
+            width: 100%;
+            gap: 10%;
+            img{
+                border-radius: 10px;
+            }
+        }
     }
     .tools-container {
         display: flex;
@@ -174,6 +251,24 @@
         img {
             width: 480px;
             margin: 0 -30px 0 0;
+        }
+        @media screen and (max-width: 1150px){
+            img{
+                width: 350px;
+            }
+        }
+        @media screen and (max-width: 950px){
+            flex-direction: column-reverse;
+            margin: 0;
+            gap: 0;
+            img{
+                width: 350px;
+            }
+        }
+        @media screen and (max-width: 950px){
+            img{
+                width: 280px;
+            }
         }
     }
     .content-container {
@@ -185,6 +280,23 @@
             width: 30%;
             border-radius: 15px;
             box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
+        }
+        @media screen and (max-width: 450px) {
+            
+            gap: 25px;
+            margin: 30px 0;
+            img{
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 750px) {
+            flex-direction: column;
+            gap: 25px;
+            margin: 30px 0;
+            img{
+                width: 80%;
+                margin: auto;
+            }
         }
     }
 }

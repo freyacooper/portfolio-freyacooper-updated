@@ -176,6 +176,7 @@ h2 {
     margin: 0 0 20px 0;
     @media screen and (max-width: 1020px) {
         font-size: 38px;
+        min-width: auto;
     }
     @media screen and (max-width: 400px) {
         font-size: 30px;
@@ -189,9 +190,13 @@ h2 {
     scroll-behavior: smooth;
 }
 .works-title  {
-    padding-top: 100px;
+    padding: 100px;
     position: sticky;
-    top: 10px;
+    top: 100px;
+    @media screen and (max-width: 1550px) {
+        padding: 0;
+        top: 150px;
+    }
 }
 .glass-overlay{
     background-color: rgb(235, 240, 240 , 50%);

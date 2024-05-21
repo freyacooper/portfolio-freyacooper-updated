@@ -16,8 +16,8 @@ function Header() {
                 </div>
                 <div>
                     <a href='/#contact' className="special-nav">Get in touch</a>
-                    <div className='line'></div>
-                    <Link to='/fr' onClick={() => setLangEn(!langEn)}>FR</Link> 
+                    {/* <div className='line'></div>
+                    <Link to='/fr' onClick={() => setLangEn(!langEn)}>FR</Link>  */}
                 </div>
             </div>
             <Link to='/'>
