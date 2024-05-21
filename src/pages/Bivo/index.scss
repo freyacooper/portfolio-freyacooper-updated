@@ -1,4 +1,48 @@
 .moodboard {
     max-width: 100%;
-    
+    padding: 50px 0;
+}
+.brand-identity{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 150px;
+}
+.wireframes {
+    padding: 150px 0;
+    .phones{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0;
+        img {
+            width: 20%;
+        }
+    }
+}
+.xd {
+    border-radius: 20px ;
+    box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
+    margin: 80px 0;
+    padding: 0;
+}
+.desktop-screenshots{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    img{
+        width: 30%;
+        border-radius: 20px;
+        box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
+    }
+    div {
+        width: 30%;
+    }
+    .middle-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img {
+            width: 100%;
+        }
+    }
 }

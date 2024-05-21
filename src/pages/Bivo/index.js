@@ -3,6 +3,17 @@ import homepage from '../../Photos/screens/BivoDeskandMob.png';
 import './index.scss'
 import { useEffect } from 'react';
 import Moodboard from '../../Photos/elements/BivoMoodboard2.png'
+import webDesignElemets from '../../Photos/elements/webDesignElements.png'
+import phone1 from '../../Photos/elements/phones-06.png'
+import phone2 from '../../Photos/elements/phones-07.png'
+import phone3 from '../../Photos/elements/phones-08.png'
+import phone4 from '../../Photos/elements/phones.png'
+import xdMobile from '../../Photos/elements/xdMobile.png'
+import xdPrototype from '../../Photos/elements/xdPrototype.png'
+import bivohomepage from '../../Photos/elements/bivohome.png'
+import bivolisting from '../../Photos/elements/bivolisting.png'
+import bivosearch from '../../Photos/elements/bivosearch.png'
+import bivofilter from '../../Photos/elements/bivofilter.png'
 
 function ProjBivo() {
     useEffect(() => {
@@ -29,13 +40,55 @@ function ProjBivo() {
                         <img src={homepage} alt=''/>
                     </div>
                     <div className='text'>
-                        <p>Jennings Chimney Sweeping is a dedicated one-man operation, specializing in chimney sweeping services while also prioritizing education and safety through their informative website and blog space.</p>
-                        <p>My role in this project was to redesign the entire website, giving it a modern and inviting aesthetic while ensuring user-friendliness and accessibility to the wealth of information available. Additionally, I created a separate page specifically dedicated to the extensive articles and educational content, aptly named the "blog space." Alongside the redesign, I implemented adjustments to optimize the site for mobile devices, enhancing its reach and usability across various platforms.</p>
+                        <p>Bivo is a small start-up company specializing in short-term rental properties in France, aiming to connect travelers with unique and convenient lodging options. </p>
+                        <p> I began at this start-up in a graphic design role, responsible for creating the company's logo and brand identity. This involved developing a cohesive visual language that would resonate with Bivo's target audience. I then transitioned into UX/UI design for the project, where I built comprehensive wireframes for the different versions of the website. My role ensured that the user experience was intuitive and visually appealing across all devices.</p>
                     </div>
                 </div>
                 <div>
                     <h2>Brand Identity</h2>
+                    <p>The brand identity for Bivo is designed to evoke a sense of calm, ease, and relaxation. Moving and finding a new rental property is typically stressful, so our goal was to create an experience that takes the stress out of it. We aimed to blend the safety and comfort of home with the freshness and relaxation of a holiday. The result is a brand that feels low-effort and fuss-free, ensuring that users feel at ease throughout their rental journey.</p>
                     <img className='moodboard' src={Moodboard} alt='Moodboard for Bivos brand identity, logos, brand colour scheme, images to show the feeling of the brand.'/>
+                    <div className='brand-identity'>
+                        <div>
+                            <h3>Colours</h3>
+                            <p>The choice of brand colours was essential in creating the desired calm and inviting atmosphere. The green evokes feelings of abundance, peace, refreshment, and security, which align with the brand’s goal of providing a stress-free rental experience. Green is a positive colour known to reduce stress and anxiety, making it ideal for a platform intended to make finding a rental property easy and relaxing. The purple tones are equally soothing but have the added benefit of containing some of the power of red, making them stand out against the green.</p>
+                            <p>Together, these colours, along with the images used on the website, evoke the serene beauty of French lavender fields and iris flowers, which have strong cultural ties to France and further reinforce the brand's connection to its locale.</p>
+                        </div>
+                        <div>
+                            <h3>Font</h3>
+                            <p>The fonts chosen for Bivo play a crucial role in conveying the brand's identity. The elegant Canela Regular is used to evoke a sense of sophistication and tranquility, mirroring the comfort and ease Bivo aims to offer its users. Avenir, with its clean and modern lines, complements Canela perfectly, adding a contemporary touch that ensures readability and a user-friendly experience across all digital platforms.</p>
+                            <p>The combination of these fonts helps to strike a balance between the traditional and the modern, reflecting the brand’s dedication to providing a stylish yet straightforward service.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Website design elements</h2>
+                    <p>The design elements across the Bivo website continue to embody these themes, reinforcing a sense of tranquility and ease. Rounded corners were intentionally employed to impart a sense of safety, approachability, and friendliness, fostering a welcoming atmosphere for users embarking on their rental journey. This choice not only enhances the aesthetic appeal but also reduces cognitive load, as rounded shapes are inherently easier to process visually. Soft drop shadows were delicately applied throughout the site, contributing to a gentle and soothing ambiance, devoid of harsh contrasts. Ample whitespace was strategically incorporated to provide breathing room and enhance clarity, facilitating effortless navigation and content consumption.</p>
+                    <img className='moodboard' src={webDesignElemets} alt='Elements of the Bivo website, buttons, checkboxes, toggles switches for example.'/>
+                </div>
+                <div className='wireframes'>
+                    <h2>Wireframes</h2>
+                    <p>Introducing our design process, we began by crafting the mobile version of the site, prioritizing a seamless and user-friendly experience for individuals accessing Bivo while on the move. Recognizing the prevalence of mobile usage, we meticulously designed each aspect to ensure ease of navigation and engagement. Subsequently, we expanded our focus to include desktop and tablet versions, ensuring that Bivo's interface remains intuitive and visually appealing across all devices. </p>
+                    <img  className='moodboard xd' src={xdMobile} alt='Screenshot of Xd file with mobile wireframes'/>
+                    <div className='phones'>
+                        <img src={phone1} alt='screen shot of the bivo mobile website'/>
+                        <img src={phone2} alt='screen shot of the bivo mobile website'/>
+                        <img src={phone3} alt='screen shot of the bivo mobile website'/>
+                        <img src={phone4} alt='screen shot of the bivo mobile website'/>
+                    </div>
+                    <div className='desktop-screenshots'>
+                        <img src={bivohomepage} alt='Bivo homepage desktop version'/>
+                        <div className='middle-images'>
+                            <img src={bivosearch} alt='Bivo search results page desktop version'/>
+                            <img src={bivofilter} alt='Bivo filters for search results desktop version'/>
+                        </div>
+                        <img src={bivolisting} alt='Bivo listing page desktop version'/>
+                    </div>
+                </div>
+                <div className='prototype'>
+                    <h2>Prototype</h2>
+                    <p>I also made a functional prototype version of the Bivo website, crafted from the initial wireframes in Adobe XD. This interactive prototype allowed us to visualize and test the user flow, ensuring a cohesive and intuitive navigation experience. The arrows in the screenshot illustrate the planned interactions and transitions between different screens, providing a roadmap of the user journey. By simulating real user interactions, we were able to refine and optimize the design, ensuring that the final product would be both functional and delightful for all users.</p>
+                    <img className="moodboard xd" src={xdPrototype} alt='Screenshot of Adobe Xd showing prototype mode with Bivo wireframes'/>
                 </div>
             </div>
             <div className='footer'>

@@ -8,6 +8,25 @@
         height: 350px;
         box-shadow: 5px 7px 40px 5px rgba(66, 68, 90, 0.18);
     }
+    .url-container{
+        background-color: rgb(244, 245, 246);
+        border-radius: 10px;
+        p{
+            font-size: 14px;
+            color: #79728d;
+            span{
+                color: #443767;
+                font-weight: 500;
+                background-color: rgb(169, 221, 235);
+            }
+        }
+        .url-bar{
+            background-color: rgb(221, 225, 229);
+            padding: 0 20px;
+            margin: 0 15px;
+            border-radius: 50px;
+        }
+    }
 }
 .router-section {
     margin-top: 150px;

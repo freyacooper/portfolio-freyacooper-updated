@@ -54,10 +54,21 @@ function ProjKasa() {
                         <img src={router} alt='Code showing the React Router used for this project.'/>
                     </div>
                 </div>
-                <p>this is </p>
+                
                 <div className='photos-div'>
-                    <img src={logement1} alt=''/>
-                    <img src={logement2} alt=''/>
+                    <div className='url-container'>
+                        <div className='url-bar'>
+                            <p>https://kasa-omega-one.vercel.app/logement/<span>c67ab8a7</span></p>
+                        </div>
+                        <img src={logement1} alt=''/>
+                    </div>
+                    
+                    <div className='url-container'>
+                        <div className='url-bar'>
+                            <p>https://kasa-omega-one.vercel.app/logement/<span>d60ca600</span></p>
+                        </div>
+                        <img src={logement2} alt=''/>
+                    </div>
                 </div>
             </div>
             <div className='footer'>
