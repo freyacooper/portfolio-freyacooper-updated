@@ -7,10 +7,12 @@ import designLaptop from '../../Photos/design laptop.jpeg'
 import devLaptop from '../../Photos/dev laptop.jpeg'
 import artwork from '../../Photos/artwork5.png'
 import '../../componants/Footer/index.scss'
+import Header from '../../componants/Header'
 
 function Home() {
     return(
         <main>
+            <Header />
             <div className="main">
                 <div className='main-container'>
                 <h1>

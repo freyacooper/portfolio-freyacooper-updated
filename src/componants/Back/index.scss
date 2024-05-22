@@ -1,0 +1,13 @@
+.back-container{
+    padding: 20px;
+    svg{
+        height: 30px;
+        transform: rotate(180deg);
+        cursor: pointer;
+        margin: 0 40px;
+        transition: margin 300ms ease;
+        &:hover{
+            margin: 0 25px;
+        }
+    }
+}

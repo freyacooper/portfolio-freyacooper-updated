@@ -35,7 +35,7 @@ function ProjKasa() {
                     </div>
                     <div className='text'>
                         <p>As part of my front-end development course, I worked on a project to create a website for Kasa, an imaginary company specializing in rental properties between individuals. This project introduced us to React, a powerful JavaScript library for building user interfaces. </p>
-                        <p>The entire website was developed using React, and because each property listing required its own page, we utilized React Router to transform the single-page application into a multi-page site. The focus of this project was to learn the new component-based logic and structure of React while staying true to the provided wireframes. Additionally, we continued to implement previously learned web development techniques such as responsive web design and animations, ensuring a seamless and engaging user experience.</p>
+                        <p>The entire website was developed using React, and as each property listing required its own page, we utilized React Router to transform the single-page application into a multi-page site. The focus of this project was to learn the new component-based logic and structure of React while staying true to the provided wireframes. Additionally, we continued to implement previously learned web development techniques such as responsive web design and animations, ensuring a seamless and engaging user experience.</p>
                     </div>
                 </div>
                 <div>

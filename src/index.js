@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Header from './componants/Header';
 import Home from './pages/Home';
-// import Contact from './pages/Contact';
 import './index.scss';
 import Error from './pages/Error';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -20,7 +18,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Router>
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
