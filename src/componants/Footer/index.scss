@@ -70,9 +70,12 @@
             }
         }
         @media screen and (max-width: 430px) {
-            padding: 80px 10px 60px 10px;
+            padding: 80px 20px 60px 20px;
             gap: 0;
             div{
+                width: 100%;
+            }
+            .work-together{
                 width: 100%;
             }
             button{
