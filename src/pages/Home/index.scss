@@ -198,6 +198,7 @@ h2 {
     }
 }
 .glass-overlay{
+    scroll-margin-top: 100px;
     background-color: rgb(235, 240, 240 , 50%);
     border-radius: 80px;
     padding: 50px 40px 50px 60px;
@@ -230,7 +231,7 @@ h2 {
         }
     }
     @media screen and (max-width:685px) {
-        padding: 40px 10px;
+        padding: 20px 10px;
         border-radius: 50px;
     }
 }
@@ -238,6 +239,7 @@ h2 {
     scroll-behavior: smooth;
 }
 .about-container {
+    scroll-margin-top: 100px;
     padding: 150px 10%;
     display: flex;
     flex-direction: row-reverse;
@@ -280,8 +282,8 @@ h2 {
         flex-direction: column-reverse;
         padding: 90px 8%;
         p{
-            font-size: 16px;
-            line-height: 24px;
+            font-size: 20px;
+            line-height: 30px;
         }
         .img-box{
             height: 0;
@@ -304,6 +306,7 @@ h2 {
     }
 }
 .skills {
+    scroll-margin-top: 100px;
     display: flex;
     flex-direction: column;
     padding: 50px 10%;

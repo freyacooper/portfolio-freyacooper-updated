@@ -43,7 +43,7 @@ function ProjOMF() {
                 <div className='to-top'>
                     <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 269.95 183.82">
                         <g id="Layer_1-2" data-name="Layer 1">
-                            <path class="cls-1" d="M230.58,78.96c-4.8-4.5-9.7-8.9-14.37-13.53-15.25-15.13-30.37-30.39-45.63-45.52-3.69-3.66-5.11-7.87-3.45-12.7,1.44-4.21,4.62-7.48,9.2-7.2,3.38.2,7.53,1.34,9.83,3.6,26.7,26.28,53.15,52.82,79.59,79.38,5.68,5.71,5.58,11.89-.07,17.55-26.34,26.42-52.7,52.81-79.11,79.16-5.28,5.27-12.37,5.45-16.88.69-4.65-4.9-4.25-11.53,1.05-16.82,19.8-19.76,39.61-39.5,60.62-60.45-3.2,0-5.04,0-6.87,0-69.81.01-139.62.03-209.43.01-2.31,0-4.71-.05-6.9-.66C2.96,101.02-.25,96.37.02,91.27c.28-5.34,4.14-9.79,9.52-10.69,1.95-.33,3.98-.23,5.98-.23,69.48,0,138.95.03,208.43.04,1.92,0,3.85,0,5.77,0,.29-.48.58-.95.87-1.43Z"/>
+                            <path className="cls-1" d="M230.58,78.96c-4.8-4.5-9.7-8.9-14.37-13.53-15.25-15.13-30.37-30.39-45.63-45.52-3.69-3.66-5.11-7.87-3.45-12.7,1.44-4.21,4.62-7.48,9.2-7.2,3.38.2,7.53,1.34,9.83,3.6,26.7,26.28,53.15,52.82,79.59,79.38,5.68,5.71,5.58,11.89-.07,17.55-26.34,26.42-52.7,52.81-79.11,79.16-5.28,5.27-12.37,5.45-16.88.69-4.65-4.9-4.25-11.53,1.05-16.82,19.8-19.76,39.61-39.5,60.62-60.45-3.2,0-5.04,0-6.87,0-69.81.01-139.62.03-209.43.01-2.31,0-4.71-.05-6.9-.66C2.96,101.02-.25,96.37.02,91.27c.28-5.34,4.14-9.79,9.52-10.69,1.95-.33,3.98-.23,5.98-.23,69.48,0,138.95.03,208.43.04,1.92,0,3.85,0,5.77,0,.29-.48.58-.95.87-1.43Z"/>
                         </g>
                     </svg>
                 </div>
@@ -112,19 +112,19 @@ function ProjOMF() {
                         <p>The animations in this project were built entirely with CSS, meaning they are lightweight and do not require additional JavaScript libraries or plugins, resulting in faster load times and smoother performance. This approach also promotes cleaner code and easier maintenance, as animations can be seamlessly integrated into the existing stylesheet. </p>
                     
                     <div className='menu-div'>
-    <div class="rest-image">
+    <div className="rest-image">
         <img src={restaurant} alt="Une assiette de nourriture sur une table."/>
     </div>
-    <div class="restaurant">
-        <div class="restaurant__title">
+    <div className="restaurant">
+        <div className="restaurant__title">
             <h2>À la française</h2>
-            <div class="hearts-wrapper">
-                <svg class="liked" width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="hearts-wrapper">
+                <svg className="liked" width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M19.865 1.43593C17.5103 -0.753131 14.0083 -0.359381 11.847 2.07343L11.0005 3.02499L10.154 2.07343C7.99701 -0.359381 4.49076 -0.753131 2.13607 1.43593C-0.562363 3.94843 -0.704161 8.45781 1.71068 11.1812L10.0251 20.5469C10.5622 21.1516 11.4345 21.1516 11.9716 20.5469L20.2861 11.1812C22.7052 8.45781 22.5634 3.94843 19.865 1.43593Z" fill="url(#paint0_linear_90763_527)"/>
                     <defs>
                     <linearGradient id="paint0_linear_90763_527" x1="11.0002" y1="-5.4601" x2="3.43443" y2="27.9923" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#9356DC" offset="0"/>
-                    <stop offset="1" stop-color="#FF79DA"/>
+                    <stop stopColor="#9356DC" offset="0"/>
+                    <stop offset="1" stopColor="#FF79DA"/>
                     </linearGradient>
                     </defs>
                 </svg>
@@ -132,98 +132,98 @@ function ProjOMF() {
                     <mask id="path-1-inside-1_90763_518" fill="white">
                     <path d="M19.865 1.43593C17.5103 -0.753131 14.0083 -0.359381 11.847 2.07343L11.0005 3.02499L10.154 2.07343C7.99701 -0.359381 4.49076 -0.753131 2.13607 1.43593C-0.562363 3.94843 -0.704161 8.45781 1.71068 11.1812L10.0251 20.5469C10.5622 21.1516 11.4345 21.1516 11.9716 20.5469L20.2861 11.1812C22.7052 8.45781 22.5634 3.94843 19.865 1.43593Z"/>
                     </mask>
-                    <path d="M19.865 1.43593C17.5103 -0.753131 14.0083 -0.359381 11.847 2.07343L11.0005 3.02499L10.154 2.07343C7.99701 -0.359381 4.49076 -0.753131 2.13607 1.43593C-0.562363 3.94843 -0.704161 8.45781 1.71068 11.1812L10.0251 20.5469C10.5622 21.1516 11.4345 21.1516 11.9716 20.5469L20.2861 11.1812C22.7052 8.45781 22.5634 3.94843 19.865 1.43593Z" stroke="#101010" stroke-width="2" mask="url(#path-1-inside-1_90763_518)"/>
+                    <path d="M19.865 1.43593C17.5103 -0.753131 14.0083 -0.359381 11.847 2.07343L11.0005 3.02499L10.154 2.07343C7.99701 -0.359381 4.49076 -0.753131 2.13607 1.43593C-0.562363 3.94843 -0.704161 8.45781 1.71068 11.1812L10.0251 20.5469C10.5622 21.1516 11.4345 21.1516 11.9716 20.5469L20.2861 11.1812C22.7052 8.45781 22.5634 3.94843 19.865 1.43593Z" stroke="#101010" strokeWidth="2" mask="url(#path-1-inside-1_90763_518)"/>
                 </svg>
             </div>
         </div>
-        <div class="menu">
-            <div class="menu__course">
+        <div className="menu">
+            <div className="menu__course">
                 <h3>Entrées</h3>    
             </div>
-            <div class="menu__group">
-                <div class="menu-item menu-item--1">
-                    <div class="menu-item__content">
+            <div className="menu__group">
+                <div className="menu-item menu-item--1">
+                    <div className="menu-item__content">
                         <h4>Tartare de poulpe acidulé</h4>
                         <p>Aux zestes d'orange</p> 
                     </div>
                     <h5>25€</h5>
-                    <div class="menu-item__check">
+                    <div className="menu-item__check">
                         <img src={tick} alt='tick'/>
                     </div>
                 </div>
-                <div class="menu-item menu-item--2">
-                    <div class="menu-item__content">
+                <div className="menu-item menu-item--2">
+                    <div className="menu-item__content">
                         <h4>Velouté de légumes d'antan</h4>
                         <p>Carotte, panais, topinambour</p> 
                     </div>
                     <h5>35€</h5>
-                    <div class="menu-item__check">
+                    <div className="menu-item__check">
                         <img src={tick} alt='tick'/>
                     </div>
                 </div>
             </div>
-            <div class="menu__course">
+            <div className="menu__course">
                 <h3>Plats</h3>    
             </div>
-            <div class="menu__group">
-                <div class="menu-item menu-item--1">
-                    <div class="menu-item__content">
+            <div className="menu__group">
+                <div className="menu-item menu-item--1">
+                    <div className="menu-item__content">
                         <h4>Coquilles Saint-Jacques</h4>
                         <p>Accompagnées d'une purée de panais</p> 
                     </div>
                     <h5>40€</h5>
-                    <div class="menu-item__check">
+                    <div className="menu-item__check">
                         <img src={tick} alt='tick'/>
                     </div>
                 </div>
-                <div class="menu-item menu-item--2">
-                    <div class="menu-item__content">
+                <div className="menu-item menu-item--2">
+                    <div className="menu-item__content">
                         <h4>Magret de canard</h4>
                         <p>Et parmentier de pommes de terre</p> 
                     </div>
                     <h5>35€</h5>
-                    <div class="menu-item__check">
+                    <div className="menu-item__check">
                         <img src={tick} alt='tick'/>
                     </div>
                 </div>
-                <div class="menu-item menu-item--3">
-                    <div class="menu-item__content">
+                <div className="menu-item menu-item--3">
+                    <div className="menu-item__content">
                         <h4>Pigeonneau d’Ille-et-Vilaine</h4>
                         <p>Sur son lit de gnocchis aux légumes</p> 
                     </div>
                     <h5>44€</h5>
-                    <div class="menu-item__check">
+                    <div className="menu-item__check">
                         <img src={tick} alt='tick'/>
                     </div>
                 </div>
             </div>
-            <div class="menu__course">
+            <div className="menu__course">
                 <h3>Desserts</h3>    
             </div>
-            <div class="menu__group">
-                <div class="menu-item menu-item--1">
-                    <div class="menu-item__content">
+            <div className="menu__group">
+                <div className="menu-item menu-item--1">
+                    <div className="menu-item__content">
                         <h4>Fondant au chocolat</h4>
                         <p>Revisitée</p> 
                     </div>
                     <h5>22€</h5>
-                    <div class="menu-item__check">
+                    <div className="menu-item__check">
                         <img src={tick} alt='tick'/>
                     </div>
                 </div>
-                <div class="menu-item menu-item--2">
-                    <div class="menu-item__content">
+                <div className="menu-item menu-item--2">
+                    <div className="menu-item__content">
                         <h4>Millefeuille croustillant</h4>
                         <p>Myrtilles et pâte d’amande</p> 
                     </div>
                     <h5>23€</h5>
-                    <div class="menu-item__check">
+                    <div className="menu-item__check">
                         <img src={tick} alt='tick'/>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="button">Commander</div>
+        <div className="button">Commander</div>
     </div>
                     </div>
                 </div>
