@@ -90,7 +90,7 @@ function ProjJCS() {
                     <div className='toggle'>
                         <h3>Original</h3>
                         <input type="checkbox" id="switch" checked={toggle} onChange={() => setToggle(!toggle)}/><label for="switch">Toggle</label>
-                        {toggle ? <h3>Updated ✨</h3> : <h3>Updated</h3>}
+                        {toggle ? <h3>Updated<span> ✨</span></h3> : <h3>Updated<span className='hidden'> ✨</span></h3>}
                     </div>
                     <div className='toggle-img'>
                         {!toggle ? <img src={jcsPricingOld} alt="capture d'écran de l'ancienne version du site web"/> : <img src={jcsPricingNew} alt="capture d'écran de la nouvelle version du site web"/>}

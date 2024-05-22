@@ -191,7 +191,9 @@
             width: 25px;
         }
     }
-
+    .hidden {
+        opacity: 0;
+    }
     .toggle {
         display: flex;
         justify-content: center;
@@ -205,6 +207,12 @@
                 width: fit-content;
                 margin: 0 0 0 10px;
             }
+            @media screen and (max-width: 370px) {
+                font-size: 16px;
+            }
+        }
+        @media screen and (max-width: 550px) {
+            justify-content: space-between;
         }
     }
     .toggle-img {
