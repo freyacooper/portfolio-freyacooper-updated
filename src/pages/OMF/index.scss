@@ -291,7 +291,7 @@ $anim-delay: 650ms;
         gap: 10px;
         .mobfirst-screen{
             height: 300px;
-            border-radius: 20px;
+            border-radius: 10px;
         }
         .arr{
             display: none;
@@ -301,12 +301,14 @@ $anim-delay: 650ms;
         gap: 10px;
         .mobfirst-screen{
             height: 250px;
-            border-radius: 20px;
         }
     }
 }
 .section-div{
     margin: 180px 0 180px 0;
+    @media screen and (max-width: 500px) {
+        margin: 80px 0 80px 0;
+    }
 }
 .sass-div{
     display: flex;
@@ -323,6 +325,9 @@ $anim-delay: 650ms;
     } 
     @media screen and (max-width:1000px) {
         flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        gap: 30px;
     }
 }
 .sass-div-photos{
@@ -344,16 +349,22 @@ $anim-delay: 650ms;
     }
     @media screen and (max-width: 1200px) {
         flex-direction: column;
+        align-items: center;
         gap: 30px;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
     @media screen and (max-width: 500px) {
         img{
             height: 150px;
         }
     }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 350px) {
         img{
-            height: 100px;
+            height: 120px;
         }
     }
 }
@@ -388,8 +399,10 @@ $anim-delay: 650ms;
         gap: 30px;
         flex-direction: column;
         align-items: center;
+        margin: 50px 0;
         .gif{
-            width: 200px;
+            width: 100%;
+            border-radius: 10px;
         }
     }   
 }

@@ -11,8 +11,8 @@
     @media screen and (max-width:1400px) {
         padding: 80px 12%;
     }
-    @media screen and (max-width:500px) {
-        padding: 20px 8%;
+    @media screen and (max-width:550px) {
+        padding: 20px 6%;
     }
     h1{
         font-size: 36px;
@@ -270,15 +270,12 @@
         }
         @media screen and (max-width: 950px){
             flex-direction: column-reverse;
+            align-items: center;
             margin: 0;
             gap: 0;
             img{
-                width: 350px;
-            }
-        }
-        @media screen and (max-width: 950px){
-            img{
-                width: 280px;
+                width: 100%;
+                margin: auto;
             }
         }
     }

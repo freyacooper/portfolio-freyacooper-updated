@@ -92,12 +92,12 @@
         animation-duration: 1800ms;
         animation-fill-mode: backwards;
         animation-timing-function: ease-out;
-        animation-delay: 100ms;
+        animation-delay: none;
     }
     .second{
         animation: text-reveal;
         animation-duration: 1800ms;
-        animation-delay: 1500ms;
+        animation-delay: 1300ms;
         animation-fill-mode: backwards;
         animation-timing-function: ease-out;
     }
@@ -221,7 +221,7 @@ h2 {
         }
     }
     @media screen and (max-width: 1300px) {
-        padding: 30px 40px;
+        padding: 30px 45px;
         flex-direction: column;
         margin: 0;
         .works-title{
@@ -230,7 +230,7 @@ h2 {
         }
     }
     @media screen and (max-width:685px) {
-        padding: 10px;
+        padding: 40px 10px;
         border-radius: 50px;
     }
 }
@@ -278,7 +278,7 @@ h2 {
     }
     @media screen and (max-width: 700px) {
         flex-direction: column-reverse;
-        padding: 80px 8%;
+        padding: 90px 8%;
         p{
             font-size: 16px;
             line-height: 24px;
