@@ -76,7 +76,7 @@ function ProjBivo() {
                 <div>
                     <h2>Brand Identity</h2>
                     <p>The brand identity for Bivo is designed to evoke a sense of calm, ease, and relaxation. Moving and finding a new rental property is typically stressful, so our goal was to create an experience that alleviates the stressful aspects of finding a new temporary home. We aimed to blend the safety and comfort of the clients own home with the freshness and relaxation of a holiday. The result is a brand that feels low-effort and ‘fuss-free’, ensuring that users feel at ease throughout their rental journey.</p>
-                    <img className='moodboard' src={Moodboard} alt='Moodboard for Bivos brand identity, logos, brand colour scheme, images to show the feeling of the brand.'/>
+                    <img className='moodboard' src={Moodboard} alt='Moodboard for Bivos brand identity, logos, brand colour scheme, images to show the feeling of the brand.' loading='lazy'/>
                     <div className='brand-identity'>
                         <div>
                             <h3>Colours</h3>
@@ -93,12 +93,12 @@ function ProjBivo() {
                 <div>
                     <h2>Website design elements</h2>
                     <p>The design elements across the Bivo website continue to embody these themes, reinforcing a sense of tranquility and ease. Rounded corners were intentionally employed to impart a sense of safety, approachability, and friendliness, fostering a welcoming atmosphere for users embarking on their rental journey. This choice not only enhances the aesthetic appeal but also reduces cognitive load, as rounded shapes are inherently easier to process visually. Soft drop shadows were delicately applied throughout the site, contributing to a gentle and soothing ambiance, devoid of harsh contrasts. Ample whitespace was strategically incorporated to provide breathing room and enhance clarity, facilitating effortless navigation and content consumption.</p>
-                    <img className='moodboard' src={webDesignElemets} alt='Elements of the Bivo website, buttons, checkboxes, toggles switches for example.'/>
+                    <img loading='lazy' className='moodboard' src={webDesignElemets} alt='Elements of the Bivo website, buttons, checkboxes, toggles switches for example.'/>
                 </div>
                 <div className='wireframes'>
                     <h2>Wireframes</h2>
                     <p>Introducing our design process, I began by crafting the mobile version of the site, prioritizing a seamless and user-friendly experience for individuals who may be accessing Bivo while on the move. Recognizing the prevalence of mobile usage, each aspect was meticulously designed to ensure ease of navigation and engagement. Subsequently, I expanded the focus to include desktop and tablet versions, ensuring that Bivo's interface remains intuitive and visually appealing across all devices.</p>
-                    <img  className='moodboard xd' src={xdMobile} alt='Screenshot of Xd file with mobile wireframes'/>
+                    <img  loading='lazy' className='moodboard xd' src={xdMobile} alt='Screenshot of Xd file with mobile wireframes'/>
                     <div className='phones'>
                         <img src={phone1} alt='screen shot of the bivo mobile website'/>
                         <img src={phone2} alt='screen shot of the bivo mobile website'/>
@@ -106,18 +106,18 @@ function ProjBivo() {
                         <img src={phone4} alt='screen shot of the bivo mobile website'/>
                     </div>
                     <div className='desktop-screenshots'>
-                        <img src={bivohomepage} alt='Bivo homepage desktop version'/>
+                        <img loading='lazy' src={bivohomepage} alt='Bivo homepage desktop version'/>
                         <div className='middle-images'>
                             <img src={bivosearch} alt='Bivo search results page desktop version'/>
                             <img src={bivofilter} alt='Bivo filters for search results desktop version'/>
                         </div>
-                        <img src={bivolisting} alt='Bivo listing page desktop version'/>
+                        <img loading='lazy' src={bivolisting} alt='Bivo listing page desktop version'/>
                     </div>
                 </div>
                 <div className='prototype'>
                     <h2>Prototype</h2>
                     <p>I also made a functional prototype version of the Bivo website, crafted from the initial wireframes in Adobe XD. This interactive prototype allowed us to visualize and test the user flow, ensuring a cohesive and intuitive navigation experience. The arrows in the screenshot illustrate the planned interactions and transitions between different screens, providing a roadmap of the user journey. By simulating real user interactions, I was able to refine and optimize the design, ensuring that the final product would be both functional and delightful for all users.</p>
-                    <img className="moodboard xd" src={xdPrototype} alt='Screenshot of Adobe Xd showing prototype mode with Bivo wireframes'/>
+                    <img loading='lazy'className="moodboard xd" src={xdPrototype} alt='Screenshot of Adobe Xd showing prototype mode with Bivo wireframes'/>
                 </div>
             </div>
             <div className='footer'>

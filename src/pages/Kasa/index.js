@@ -9,6 +9,7 @@ import logement1 from '../../Photos/elements/logement1.png'
 import logement2 from '../../Photos/elements/logement2.png'
 import Back from '../../componants/Back';
 import Loader from '../../componants/Loader';
+import kasalogo from '../../Photos/elements/kasalogo.svg'
 
 function ProjKasa() {
     const[showButton, setShowButton] = useState(false)
@@ -33,7 +34,7 @@ function ProjKasa() {
 
     return (
         <div>
-            <Loader />
+            <Loader logo={kasalogo}/>
             <Back />
             {showButton && (
             <a href='#back' className='link-container'>

@@ -28,6 +28,36 @@
       transform: scale(1, 1);
     }
   }
+  @keyframes logo-slide {
+    0% {
+      transform: translateY(1000px) scaleY(1);
+      opacity: 1;
+    }
+    
+      22%{
+         transform: translateY(0) scaleY(0.6);
+      }
+    23% {
+        transform: translateY(0) scaleY(1);
+        opacity: 1;
+      }
+    27% {
+      transform: translateY(0) scaleY(1);
+    }
+    80% {
+      transform: translateY(0) scaleY(1);
+    }
+    85% {
+      transform: translateY(30px) scaleY(0.7);
+    }
+    90% {
+        transform: scaleY(1.2);
+    }
+    100% {
+      transform: translateY(-1000px) scaleY(1);
+      opacity: 1;
+    }
+  }
 
   @keyframes load-screen {
     0% {
@@ -47,7 +77,7 @@
     }
     100% {
         transform: translateY(-1000px);
-        opacity: 0.94;
+        opacity: 1;
     }
   }
 
