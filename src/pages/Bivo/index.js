@@ -41,7 +41,6 @@ function ProjBivo() {
             <Back />
             {showButton && (
             <a href='#back' className='link-container'>
-                {/* <p>Back to top</p> */}
                 <div className='to-top'>
                     <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 269.95 183.82">
                         <g id="Layer_1-2" data-name="Layer 1">
