@@ -1,4 +1,4 @@
-import sbbanner from '../../Photos/sbbanner2.png'
+// import sbbanner from '../../Photos/sbbanner2.png'
 import homepage from '../../Photos/screens/SBDeskandMob.png';
 import './index.scss'
 import { useEffect } from 'react';
@@ -54,7 +54,7 @@ function ProjSB() {
                 </div>
             </a>
             )}
-            <img src={sbbanner} alt="" className='project-banner'/>
+            <img src='/assets/Banners/sbbanner2.png' alt="" className='project-banner'/>
             <div className='page'>
                 <h1>Portfolio Sophie Bluel</h1>
                 <div className='tag-container'>

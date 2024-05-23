@@ -1,4 +1,4 @@
-import omfbanner from '../../Photos/omfbanner2.png'
+// import omfbanner from '../../Photos/omfbanner2.png'
 import homepage from '../../Photos/screens/OMFDeskandMob.png'
 import './index.scss'
 import { useEffect } from 'react';
@@ -49,7 +49,7 @@ function ProjOMF() {
                 </div>
             </a>
             )}
-            <img src={omfbanner} alt="" className='project-banner'/>
+            <img src='/assets/Banners/omfbanner2.png' alt="" className='project-banner'/>
             <div className='page'>
                 <h1>Oh My Food</h1>
                 <div className='tag-container'>

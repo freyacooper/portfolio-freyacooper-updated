@@ -1,4 +1,4 @@
-import bivobanner from '../../Photos/bivobanner2.png'
+// import bivobanner from '../../Photos/bivobanner2.png'
 import homepage from '../../Photos/screens/BivoDeskandMob.png';
 import './index.scss'
 import { useEffect } from 'react';
@@ -50,7 +50,7 @@ function ProjBivo() {
                 </div>
             </a>
             )}
-            <img src={bivobanner} alt="" className='project-banner'/>
+            <img src='/assets/Banners/bivobanner2.png' alt="" className='project-banner'/>
             <div className='page'>
                 <h1>Bivo</h1>
                 <div className='tag-container'>

@@ -1,4 +1,4 @@
-import jcsbanner from '../../Photos/JCSbanner2.png'
+// import jcsbanner from '../../Photos/JCSbanner2.png'
 import jcsscreens from '../../Photos/screens/jcsDeskAndMob.png';
 import jcsscreenFooter from '../../Photos/elements/jcsscreen-footer.png'
 import jcsscreenProducts from '../../Photos/elements/jcsProducts.png'
@@ -51,7 +51,7 @@ function ProjJCS() {
                 </div>
             </a>
             )}
-            <img src={jcsbanner} alt="" className='project-banner'/>
+            <img src='/assets/Banners/JCSbanner2.png' alt="" className='project-banner'/>
             <div className='page'>
                 <h1>Jennings Chimney Sweeping</h1>
                 <div className='tag-container'>

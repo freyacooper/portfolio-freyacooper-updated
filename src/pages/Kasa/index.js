@@ -1,4 +1,4 @@
-import kasabanner from '../../Photos/kasabanner2.png'
+// import kasabanner from '../../Photos/kasabanner2.png'
 import homepage from '../../Photos/screens/KasaDeskandMob.png';
 import './index.scss'
 import { useEffect, useState } from 'react';
@@ -48,7 +48,7 @@ function ProjKasa() {
                 </div>
             </a>
             )}
-            <img src={kasabanner} alt="" className='project-banner'/>
+            <img src='/assets/Banners/kasabanner2.png' alt="" className='project-banner'/>
             <div className='page'>
                 <h1>Kasa</h1>
                 <div className='tag-container'>
