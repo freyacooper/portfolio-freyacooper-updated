@@ -1,4 +1,4 @@
-import jcsbanner from '../../Photos/JCSbanner.png'
+import jcsbanner from '../../Photos/JCSbanner2.png'
 import jcsscreens from '../../Photos/screens/jcsDeskAndMob.png';
 import jcsscreenFooter from '../../Photos/elements/jcsscreen-footer.png'
 import jcsscreenProducts from '../../Photos/elements/jcsProducts.png'

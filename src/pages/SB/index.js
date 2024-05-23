@@ -1,4 +1,4 @@
-import sbbanner from '../../Photos/sbbanner.png'
+import sbbanner from '../../Photos/sbbanner2.png'
 import homepage from '../../Photos/screens/SBDeskandMob.png';
 import './index.scss'
 import { useEffect } from 'react';

@@ -1,4 +1,4 @@
-import kasabanner from '../../Photos/kasabanner.png'
+import kasabanner from '../../Photos/kasabanner2.png'
 import homepage from '../../Photos/screens/KasaDeskandMob.png';
 import './index.scss'
 import { useEffect, useState } from 'react';
