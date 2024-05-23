@@ -1,4 +1,4 @@
-import omfbanner from '../../Photos/omfbanner.png'
+import omfbanner from '../../Photos/omfbanner2.png'
 import homepage from '../../Photos/screens/OMFDeskandMob.png'
 import './index.scss'
 import { useEffect } from 'react';
