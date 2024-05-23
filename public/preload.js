@@ -1,10 +1,10 @@
 window.addEventListener('load', () => {
     const imagesToPreload = [
-      '%PUBLIC_URL%/../../src/Photos/JCSbanner.png',
-      '%PUBLIC_URL%/../../src/Photos/bivobanner.png',
-      '%PUBLIC_URL%/../../src/Photos/kasabanner.png',
-      '%PUBLIC_URL%/../../src/Photos/sbbanner.png',
-      '%PUBLIC_URL%/../../src/Photos/omfbanner.png'
+      '%PUBLIC_URL%/../../src/Photos/JCSbanner2.png',
+      '%PUBLIC_URL%/../../src/Photos/bivobanner2.png',
+      '%PUBLIC_URL%/../../src/Photos/kasabanner2.png',
+      '%PUBLIC_URL%/../../src/Photos/sbbanner2.png',
+      '%PUBLIC_URL%/../../src/Photos/omfbanner2.png'
     ];
   
     imagesToPreload.forEach(src => {
