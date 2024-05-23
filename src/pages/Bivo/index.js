@@ -1,4 +1,4 @@
-import bivobanner from '../../Photos/bivobanner.png'
+import bivobanner from '../../Photos/bivobanner2.png'
 import homepage from '../../Photos/screens/BivoDeskandMob.png';
 import './index.scss'
 import { useEffect } from 'react';
