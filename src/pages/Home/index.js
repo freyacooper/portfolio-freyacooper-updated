@@ -2,7 +2,7 @@ import './index.scss'
 import ProjectCard from '../../componants/ProjectCard'
 import projects from '../../projects.json'
 import Scroller from '../../componants/Scroller'
-import photo from '../../Photos/photobetter.png'
+import photo from '../../Photos/elements/headshot.png'
 import designLaptop from '../../Photos/design laptop.jpeg'
 import devLaptop from '../../Photos/dev laptop.jpeg'
 import artwork from '../../Photos/artwork5.png'
@@ -46,7 +46,7 @@ function Home() {
             </div>
             <div className="about-container" id='about'>
                 <div className="img-box">
-                    <img alt='Freya sur un fond violet' src={photo}/>
+                    <img alt='Freya on a gradient background' src={photo}/>
                 </div>
                 <div>
                     <h2>A bit about me</h2>

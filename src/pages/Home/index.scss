@@ -248,8 +248,11 @@ h2 {
     color: #211349;
     .img-box{
         display: flex;
-        height: 350px;
-        width: 300px;
+        height: 300px;
+        
+        img{
+            border-radius: 15px;
+        }
     }
     h2 {
         margin-bottom: 40px;
@@ -286,14 +289,14 @@ h2 {
             line-height: 30px;
         }
         .img-box{
-            height: 0;
-            img{
-                display: none;
-            }
+            height: fit-content;
         }
-        div{
+        img{
+            display: block;
+            object-fit: cover;
             width: 100%;
         }
+        
         h2{
             min-width: 0;
         }
